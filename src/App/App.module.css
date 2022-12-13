@@ -1,0 +1,8 @@
+.container{
+    background-color: aqua;
+    width: 5000px;
+}
+.wrapper{
+    width:15000px;
+    display: flex;
+}
