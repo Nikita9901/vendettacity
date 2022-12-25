@@ -1,0 +1,11 @@
+.block{
+    width: auto;
+    transition: all 1s;
+    cursor:pointer;
+}
+.image{
+    transition: all .1s;
+}
+.block:hover .image{
+    opacity: 80%;
+}

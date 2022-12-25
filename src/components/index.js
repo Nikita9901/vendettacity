@@ -1,0 +1,4 @@
+export {default as HomePage} from './Homepage'
+export {default as Story} from './Story'
+export {default as Cartel} from './Cartel'
+export {default as Map} from './Map'

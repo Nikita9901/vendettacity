@@ -1,8 +1,22 @@
-.container{
-    background-color: aqua;
-    width: 5000px;
-}
 .wrapper{
-    width:15000px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
     display: flex;
+    width: 15000px;
 }
+.vendettacityImage{
+    margin-top: -1000px;
+    transition: margin-top 5s;
+    /* animation: vendettacityImage 10s 100; */
+}
+.vendettacityImage .active{
+    margin-top: 1000px;
+}
+/* 
+@keyframes vendettacityImage {
+    0%{
+        margin-top: -1000px;
+    }    
+} */
