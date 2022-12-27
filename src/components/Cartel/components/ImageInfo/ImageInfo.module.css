@@ -1,11 +1,27 @@
 .block{
-    width: auto;
-    transition: all 1s;
-    cursor:pointer;
+    height: 100vh;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    margin: 0 3px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 2s ease-in-out;
 }
 .image{
-    transition: all .1s;
+    transition: all .1s ease-in-out;
+    border-radius: 10px;
+    height: 99%;
 }
 .block:hover .image{
-    opacity: 80%;
+    opacity: .9;
+}
+.block.active{
+    cursor: default;
+    width: 500px;
+}
+.block.active .image{
+    opacity:0;
 }

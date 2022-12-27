@@ -1,5 +1,5 @@
-import React, { useRef, useState } from 'react';
-import { HomePage, Story, Cartel, Map } from '../components';
+import React from 'react';
+import { HomePage, Story, Cartel, Map, Characters } from '../components';
 import styles from './App.module.css';
 
 // const throttle = (func, limit) => {
@@ -37,6 +37,7 @@ function App() {
         <Story/>
         <Cartel/>
         <Map/>
+        <Characters/>
       </div>
     </div>
     

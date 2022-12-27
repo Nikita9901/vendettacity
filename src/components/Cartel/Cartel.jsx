@@ -6,21 +6,32 @@ import {ImageInfo} from './components/ImageInfo'
 import styles from "./Cartel.module.css"
 
 const Cartel = () => {
-    const [activeImage, setActiveImage] = useState(2)
+    const [activeImage, setActiveImage] = useState(3)
+    const data = [
+        {
+            id: 1,
+            image: cartel,
+            text: 'CARTEL'
+        },
+        {
+            id: 2,
+            image: russians,
+            text: 'RUSSIANS'
+        },
+        {
+            id: 3,
+            image: cartel,
+            text: 'CARTEL'
+        },
+        {
+            id: 4,
+            image: cosanostra,
+            text: 'COSA NOSTRA'
+        },
+    ]
     return(
-        <div className={styles.container}>
-            <ImageInfo image={cartel} active={activeImage === 1} onClick={() => {
-                console.log('H1')
-            }}/>
-            <ImageInfo image={russians} active={activeImage === 2} onClick={() => {
-                console.log('H2')
-            }}/>
-            <ImageInfo image={cartel} active={activeImage === 3} onClick={() => {
-                console.log('H3')
-            }}/>
-            <ImageInfo image={cosanostra} active={activeImage === 4} onClick={() => {
-                setActiveImage(4);
-            }}/>
+        <div className={styles.container} >
+            {data.map((el) => <ImageInfo image={el.image} active={activeImage === el.id} setActiveImage={setActiveImage} id={el.id}/>)}
         </div>
     )
 }

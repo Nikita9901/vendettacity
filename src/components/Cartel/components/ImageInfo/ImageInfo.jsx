@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
+import classnames from "classnames";
 import styles from "./ImageInfo.module.css"
 
-const ImageInfo = ({active, image}) => {
+const ImageInfo = ({active, image, setActiveImage, id}) => {
+
     return(
-        <div className={styles.block} onClick={(e) => {
-            e.target.style.width = active ? '1250px' : 'auto';
+        <div className={classnames(styles.block, active ? styles.active : null)} onClick={() => {
+            setActiveImage(id);
         }}>
-            {active ? <div style={{width: '1250px'}}>Hello</div> :  <img src={image} alt={`${image}`} />}
+                <img src={image} alt={`${image}`} className={styles.image}/>
            
         </div>
     )
