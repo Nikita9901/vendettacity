@@ -1,6 +1,9 @@
 .block{
     height: 100vh;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     color: #fff;
     margin: 0 3px;
@@ -9,6 +12,9 @@
     background-repeat: no-repeat;
     position: relative;
     transition: all 2s ease-in-out;
+}
+.openCard{
+    width: 1258px;
 }
 .image{
     transition: all .1s ease-in-out;
@@ -24,4 +30,11 @@
 }
 .block.active .image{
     opacity:0;
+}
+.text{
+    position: absolute;
+    z-index: 1;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
 }

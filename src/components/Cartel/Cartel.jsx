@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import cartel from '../../static/cartel.png'
-import russians from '../../static/russians.png'
-import cosanostra from '../../static/cosanostra.png'
+import cartel from './images/cartel.png'
+import russians from './images/russians.png'
+import cosanostra from './images/cosanostra.png'
 import {ImageInfo} from './components/ImageInfo'
 import styles from "./Cartel.module.css"
 
@@ -21,7 +21,7 @@ const Cartel = () => {
         {
             id: 3,
             image: cartel,
-            text: 'CARTEL'
+            text: 'TRIADA'
         },
         {
             id: 4,
@@ -31,7 +31,7 @@ const Cartel = () => {
     ]
     return(
         <div className={styles.container} >
-            {data.map((el) => <ImageInfo image={el.image} active={activeImage === el.id} setActiveImage={setActiveImage} id={el.id}/>)}
+            {data.map((el) => <ImageInfo image={el.image} active={activeImage === el.id} setActiveImage={setActiveImage} id={el.id} text={el.text}/>)}
         </div>
     )
 }

@@ -4,6 +4,8 @@
     height: 100%;
     color: white;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 .vendettacityImage{
     margin-top: -1000px;
@@ -17,4 +19,8 @@
     position: absolute;
     left: 23%;
     top: 5%;
+}
+.animateBlock{
+    position: absolute;
+    left: -17%;
 }

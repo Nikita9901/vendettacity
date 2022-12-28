@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import {VendettaCity} from '../VendettaCity'
 import classnames from 'classnames';
-import gta10 from "../../static/gta10.png";
-import gta6 from "../../static/gta6.png";
-import burger from '../../static/burger.svg'
-import vendettacity from '../../static/vendettacity.svg';
+import gta10 from "./images/gta10.png";
+import gta6 from "./images/gta6.png";
+import burger from './images/burger.svg'
+import vendettacity from './images/vendettacity.svg';
 import styles from "./Story.module.css";
 
 const Story = () => {
@@ -35,7 +36,10 @@ const Story = () => {
     
     return(
         <div className={styles.container}>
-            <img src={vendettacity} alt={'vendettacity'} className={classnames(styles.vendettacityImage, anim.vcity ? styles.active : null)}/>
+            <div className={styles.animateBlock}>
+                <VendettaCity/>
+            </div>
+            {/* <img src={vendettacity} alt={'vendettacity'} className={classnames(styles.vendettacityImage, anim.vcity ? styles.active : null)}/> */}
             <img src={gta10} alt={'gta'} className={classnames(styles.gtaImage, styles.image2)}/>
             <img src={gta6} alt={'gta'} className={classnames(styles.gtaImage, styles.image1, anim.images? styles.activeImage:null)}/>
             <div className={styles.textBlock}>

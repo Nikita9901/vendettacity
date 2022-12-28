@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import {Button} from '../Button'
-import cartelCharactersImage from '../../../../static/cartelCharacters.png'
-import russiansCharactersImage from '../../../../static/russiansCharacters.png'
-import triadaCharactersImage from '../../../../static/triadaCharacters.png'
-import cosanostraCharactersImage from '../../../../static/cosanostraCharacters.png'
+import {
+    cartelCharactersImage, 
+    russiansCharactersImage, 
+    triadaCharactersImage, 
+    cosanostraCharactersImage} from './images'
 import {CharacterImage} from '../CharacterImage'
 import styles from "./Character.module.css"
 

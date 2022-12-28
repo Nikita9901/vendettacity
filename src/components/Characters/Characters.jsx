@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import {Character} from './components/Character'
+import { VendettaCity } from "../VendettaCity";
 import classnames from "classnames";
-import vendettacity from '../../static/vendettacity.svg';
+import vendettacity from './images/vendettacity.svg';
 import styles from "./Characters.module.css"
 
 const Characters = () => {
@@ -12,7 +13,9 @@ const Characters = () => {
       });
     return(
         <div className={styles.container}>
-            <img src={vendettacity} alt={'vendettacity'} className={classnames(styles.vendettacityImage, anim ? styles.active : null)}/>
+            <div className={styles.animateBlock}><VendettaCity/></div>
+            
+            {/* <img src={vendettacity} alt={'vendettacity'} className={classnames(styles.vendettacityImage, anim ? styles.active : null)}/> */}
             <div className={styles.block_characters}>
                 <Character/>
             </div>

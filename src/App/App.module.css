@@ -3,7 +3,7 @@
     overflow-y: hidden;
     scroll-behavior: smooth;
     display: flex;
-    width: 460vw;
+    width: max-content;
 }
 .vendettacityImage{
     margin-top: -1000px;

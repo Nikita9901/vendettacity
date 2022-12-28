@@ -27,6 +27,8 @@ function App() {
   let pixels = 0;
   window.addEventListener('wheel', function(event) {
     if (pixels < 0) pixels = 0
+    else if (pixels > document.documentElement.scrollWidth-window.outerWidth) 
+      pixels = document.documentElement.scrollWidth-window.outerWidth
     else pixels = pixels + event.deltaY;
     window.scrollTo(pixels, 0)
   });

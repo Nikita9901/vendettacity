@@ -1,6 +1,6 @@
 import React from "react";
-import homepage from '../../static/homepage.png'
-import burger from '../../static/burger.svg'
+import homepage from './images/homepage.png'
+import burger from './images/burger.svg'
 // import logo from '../../static/logo.png'
 import styles from "./Homepage.module.css"
 

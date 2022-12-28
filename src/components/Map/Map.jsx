@@ -1,23 +1,16 @@
 import React, { useEffect, useRef, useState } from "react";
-import classnames from 'classnames';
-import map from "../../static/map.png";
 import styles from "./Map.module.css";
 
 const Map = () => {
     const imageRef = useRef(null);
     const parentRef = useRef(null);
-    let mas = [0, 0]
     const [coordinates, setCoordinates] = useState([100, 100])
     useEffect(() => {
-        imageRef.current.addEventListener('mousemove', async function(e){
-            const parent = parentRef.current.getBoundingClientRect();
+        imageRef.current.addEventListener('mousemove', function(e){
             const element = imageRef.current.getBoundingClientRect();
             const x = e.pageX - window.pageXOffset-element.left-25;
             const y = e.pageY - element.top-25;
-            if (Math.abs(mas[0]-x)>100 || Math.abs(mas[1]-y)>100){
-                await setCoordinates([x, y])
-                mas = [x, y]
-            }
+            setCoordinates([x, y])
         })
     })
     // $(".image").mousemove(function(e) {
