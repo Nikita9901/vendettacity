@@ -3,7 +3,6 @@
     border-radius: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
     cursor: pointer;
     color: #fff;
     margin: 0 3px;
@@ -11,15 +10,26 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    transition: all 2s ease-in-out;
 }
 .openCard{
-    width: 1258px;
+    flex: 6;
+    display: flex;
+    animation: openCardAnimation 1s 1;
+    justify-content: flex-start;
+}
+.closeCard{
+    flex: 1;
+    display: flex;
+    animation: closeCardAnimation 1s 1;
+    object-fit: cover;
+    object-position: center;
+    justify-content: flex-end;
 }
 .image{
-    transition: all .1s ease-in-out;
+    animation: imageOpacityAnimation 1s 1;
     border-radius: 10px;
-    height: 99%;
+    opacity: 1;
+    height: 100%;
 }
 .block:hover .image{
     opacity: .9;
@@ -37,4 +47,34 @@
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 24px;
+}
+.imageText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 99%;
+}
+@keyframes openCardAnimation {
+    0%{
+        flex: 1;
+    }
+    100%{
+        flex:6;
+    }   
+}
+@keyframes closeCardAnimation {
+    0%{
+        flex: 6;
+    }
+    100%{
+        flex: 1;
+    }   
+}
+@keyframes imageOpacityAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }   
 }

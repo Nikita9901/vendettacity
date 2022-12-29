@@ -1,0 +1,64 @@
+.container{
+    background-color: #222222;
+    background-image: url('./images/background.png');
+    width:100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+.header{
+    color: white;
+    font-family: 'New Rocker', 'normal';
+    font-weight: 400;
+    font-size: 80px;
+}
+.block{
+    display: flex;
+    max-width: 90%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.infoBlock{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.description{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    line-height: 34px;
+    text-align: justify;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+.headerCarousel{
+    color: white;
+    font-family: 'New Rocker';
+    font-weight: 400;
+    font-size: 48px;
+    width: 100%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.carousel{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    height: 48px;
+    margin: 0 15px;
+}
+.arrow:hover{
+    opacity: .8;
+}

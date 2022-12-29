@@ -1,0 +1,76 @@
+.container{
+    position: relative;
+    width: 650px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    position: absolute;
+    cursor: pointer;
+}
+.button.active{
+    filter: brightness(250%);
+    opacity: 2;
+    cursor: default;
+}
+.button.active:hover{
+    opacity: 1;
+}
+.button:hover{
+    opacity: 0.8;
+}
+.weaponsButton{
+    top:0;
+    width: 68%;
+    filter: brightness(40%);
+}
+.armorButton{
+    bottom: 0;
+    width: 68%;
+}
+.alibiButton{
+    right: 0;
+    height: 68%;
+}
+.carsButton{
+    left: 0;
+    height: 68%;
+}
+.name{
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color:white;
+}
+.carsName{
+    left: 18px;
+}
+.alibiName{
+    right: 18px;
+}
+.armorName{
+    bottom: 37px;
+}
+.weaponsName{
+    top: 37px;
+}
+.activeName{
+    color: black;
+    font-weight: 600;
+}
+.image{
+    width: 430px;
+    animation: imageAnimation 1s 1;
+}
+@keyframes imageAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

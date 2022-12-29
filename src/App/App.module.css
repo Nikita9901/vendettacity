@@ -1,6 +1,7 @@
 .wrapper{
     height: 100vh;
     overflow-y: hidden;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     display: flex;
     width: max-content;
@@ -13,6 +14,11 @@
 .vendettacityImage .active{
     margin-top: 1000px;
 }
+/* .animateBlock{
+    position: absolute;
+    background-color: #222222;
+    left: -17%;
+} */
 /* 
 @keyframes vendettacityImage {
     0%{
