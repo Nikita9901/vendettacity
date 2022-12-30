@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/vendettacity/static/css/main.9133e3c5.css",
-    "main.js": "/vendettacity/static/js/main.5506fc22.js",
+    "main.css": "/vendettacity/static/css/main.12470292.css",
+    "main.js": "/vendettacity/static/js/main.798a5c51.js",
+    "static/media/mask.png": "/vendettacity/static/media/mask.55f935abf9de0b88e606.png",
+    "static/media/map.png": "/vendettacity/static/media/map.7b36f5932010228d92be.png",
     "static/media/weapons_machineGun.png": "/vendettacity/static/media/weapons_machineGun.c93c7b1c565bad4c5568.png",
     "static/media/russiansCharacters4.png": "/vendettacity/static/media/russiansCharacters4.1feb75811f45d23023b5.png",
     "static/media/russiansCharacters1.png": "/vendettacity/static/media/russiansCharacters1.d090777213f90970b5d2.png",
@@ -22,9 +24,10 @@
     "static/media/homepage.png": "/vendettacity/static/media/homepage.f4f41ae29dd81124a726.png",
     "static/media/cosanostraCharacters4.png": "/vendettacity/static/media/cosanostraCharacters4.518fea41c414903ac844.png",
     "static/media/cosanostraCharacters1.png": "/vendettacity/static/media/cosanostraCharacters1.bb24ab3c7d88e2872e0a.png",
+    "static/media/mask.svg": "/vendettacity/static/media/mask.c4fb42b6616445b31f265fed40e4b1f7.svg",
     "static/media/cars_2.png": "/vendettacity/static/media/cars_2.0946c57674602429a86f.png",
     "static/media/cars_4.png": "/vendettacity/static/media/cars_4.a6df255828c605d13407.png",
-    "static/media/map.png": "/vendettacity/static/media/map.90431e5a920f035e4dc8.png",
+    "static/media/Map.svg": "/vendettacity/static/media/Map.9ed59866692e9229a11841c4c7c8b7f5.svg",
     "static/media/armor_bulletproof1.png": "/vendettacity/static/media/armor_bulletproof1.d105ab624fd6685b4730.png",
     "static/media/gta10.png": "/vendettacity/static/media/gta10.72cb464a385726559ef0.png",
     "static/media/cars_3.png": "/vendettacity/static/media/cars_3.a17f112b73847db9656b.png",
@@ -36,6 +39,7 @@
     "static/media/cartelImage.png": "/vendettacity/static/media/cartelImage.886a6a04b5cac4bb6a06.png",
     "static/media/armor_bulletproof4.png": "/vendettacity/static/media/armor_bulletproof4.22f95b1763b08b104bd1.png",
     "static/media/cartelCharacters1.png": "/vendettacity/static/media/cartelCharacters1.fa2ff420435440b122c5.png",
+    "static/media/triada.png": "/vendettacity/static/media/triada.1928a1f720c348186863.png",
     "static/media/russians.png": "/vendettacity/static/media/russians.c67f50ef035d407ecfdc.png",
     "static/media/cosanostra.png": "/vendettacity/static/media/cosanostra.4dcc7d3bf4422eb83149.png",
     "static/media/armor_bulletproof3.png": "/vendettacity/static/media/armor_bulletproof3.3e89d8cb633f005f7d1b.png",
@@ -43,11 +47,11 @@
     "static/media/vendettacity.svg": "/vendettacity/static/media/vendettacity.b00a71980ac3542b52a01f06f9ca5ba2.svg",
     "index.html": "/vendettacity/index.html",
     "static/media/burger.svg": "/vendettacity/static/media/burger.5889d4ba2b78e8bb4df3ed72317e7012.svg",
-    "main.9133e3c5.css.map": "/vendettacity/static/css/main.9133e3c5.css.map",
-    "main.5506fc22.js.map": "/vendettacity/static/js/main.5506fc22.js.map"
+    "main.12470292.css.map": "/vendettacity/static/css/main.12470292.css.map",
+    "main.798a5c51.js.map": "/vendettacity/static/js/main.798a5c51.js.map"
   },
   "entrypoints": [
-    "static/css/main.9133e3c5.css",
-    "static/js/main.5506fc22.js"
+    "static/css/main.12470292.css",
+    "static/js/main.798a5c51.js"
   ]
 }
