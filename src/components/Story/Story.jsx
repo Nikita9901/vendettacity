@@ -20,16 +20,16 @@ const Story = () => {
         else if (window.scrollX < 200 && anim.vcity) setAnim((prev) => {
             return {...prev, vcity: false}
         })
-        if (window.scrollX > 900 && !anim.images) setAnim((prev) => {
+        if (window.scrollX > 700 && !anim.images) setAnim((prev) => {
             return {...prev, images: true}
         })
-        else if (window.scrollX < 900 && anim.images)   setAnim((prev) => {
+        else if (window.scrollX < 700 && anim.images)   setAnim((prev) => {
             return {...prev, images: false}
         })
-        if (window.scrollX > 1400 && !anim.text) setAnim((prev) => {
+        if (window.scrollX > 1500 && !anim.text) setAnim((prev) => {
             return {...prev, text: true}
         })
-        else if (window.scrollX < 1400 && anim.text) setAnim((prev) => {
+        else if (window.scrollX < 1500 && anim.text) setAnim((prev) => {
             return {...prev, text: false}
         })
       });

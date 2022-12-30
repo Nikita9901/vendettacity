@@ -37,9 +37,9 @@ function App() {
     <div>
       <div className={styles.wrapper} style={{scrollBehavior: 'smooth'}}>
         <HomePage/>
-        {/* <div className={styles.animateBlock}>
+        <div className={styles.animateBlock}>
           <VendettaCity/>
-        </div> */}
+        </div>
         <Story/>
         <Cartel/>
         <Map/>

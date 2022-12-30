@@ -74,3 +74,8 @@
         opacity: 1;
     }
 }
+@media (max-width: 1550px){
+    .container{
+        transform: scale(.9);
+    }
+}

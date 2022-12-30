@@ -53,6 +53,7 @@
     align-items: center;
     justify-content: center;
     height: 99%;
+    white-space: nowrap;
 }
 @keyframes openCardAnimation {
     0%{

@@ -1,9 +1,13 @@
 .animateText{
-    white-space: nowrap;
+    position: absolute;
     transform: rotate(-90deg);
+    white-space: nowrap;
     font-family: 'Monoton';
     font-size: 220px;
     line-height: 342px;
     color: white;
     width: 100vh;
+    height: 100%;
+    padding-left: 25px;
+    background-color: #222222;
 }
