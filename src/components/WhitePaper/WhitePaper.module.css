@@ -1,0 +1,76 @@
+.container{
+    width: 100vw;
+    display: flex;
+    background-color: #222222;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.gta10{
+    width: 900px;
+}
+.header{
+    color: white;
+    font-family: 'New Rocker', 'normal';
+    font-weight: 400;
+    font-size: 80px;
+    margin-bottom: 3%;
+}
+.button{
+    width: 10%;
+    height: 60px;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Montagu Slab';
+    cursor: pointer;
+    transition: all .1s;
+    margin-top: 2%;
+}
+.icons{
+    display: flex;
+    margin-top: 4%;
+}
+.icon{
+    margin-right: 10px;
+    width: 52px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+.button:hover{
+    border-color: rgb(189, 189, 189);
+    color:rgb(189, 189, 189);
+}
+.rights{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    margin-top: 5px;
+}
+@media (max-width: 1550px) {
+    .gta10{
+        width: 700px;
+    }
+    .icons{
+        margin-top: 2%;
+    }
+    .header{
+        margin-bottom: 2%;
+    }
+    .icon{
+        margin-right: 7px;
+        width: 40px;
+    }
+    .rights{
+        font-size: 15px;
+    }
+}

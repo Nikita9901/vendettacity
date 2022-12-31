@@ -1,5 +1,14 @@
 import React from 'react';
-import { HomePage, Story, Cartel, Map, Characters, Boosts} from '../components';
+import { 
+  HomePage, 
+  Story, 
+  Cartel, 
+  Map, 
+  Characters, 
+  Boosts, 
+  NewsPaper,
+  WhitePaper
+} from '../components';
 import {VendettaCity} from '../components/VendettaCity'
 import styles from './App.module.css';
 
@@ -45,6 +54,8 @@ function App() {
         <Map/>
         <Characters/>
         <Boosts/>
+        <NewsPaper/>
+        <WhitePaper/>
       </div>
     </div>
     

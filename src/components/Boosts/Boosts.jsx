@@ -145,7 +145,7 @@ const Boosts = () => {
         },
     ]
     const onChange = (currentSlide) => {
-        setCurrentInfo( currentSlide)
+        setCurrentInfo(currentSlide===3 ? 0 : currentSlide+1)
     }
     return(
         <div className={styles.container}>
@@ -159,7 +159,7 @@ const Boosts = () => {
                         arrows={true} 
                         prevArrow={<img src={leftArrow} alt="prev" className={styles.arrow}/>} 
                         nextArrow={<img src={rightArrow} alt="next" className={styles.arrow}/>}
-                        afterChange={onChange}
+                        beforeChange={onChange}
                     >
                         {el.data.map((info) => 
                         <div className={styles.infoBlock}>
