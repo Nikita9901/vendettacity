@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/vendettacity/static/css/main.e23bbd71.css",
-    "main.js": "/vendettacity/static/js/main.c59e74b2.js",
-    "static/media/mask.png": "/vendettacity/static/media/mask.55f935abf9de0b88e606.png",
+    "main.css": "/vendettacity/static/css/main.6a59907b.css",
+    "main.js": "/vendettacity/static/js/main.5f38995d.js",
     "static/media/map.png": "/vendettacity/static/media/map.7b36f5932010228d92be.png",
     "static/media/weapons_machineGun.png": "/vendettacity/static/media/weapons_machineGun.c93c7b1c565bad4c5568.png",
     "static/media/russiansCharacters4.png": "/vendettacity/static/media/russiansCharacters4.1feb75811f45d23023b5.png",
@@ -13,6 +12,7 @@
     "static/media/weapons_submachineGun.png": "/vendettacity/static/media/weapons_submachineGun.4b1a93824872d7507a28.png",
     "static/media/bricks.png": "/vendettacity/static/media/bricks.c06750286edf59cf2f22.png",
     "static/media/cartelCharacters4.png": "/vendettacity/static/media/cartelCharacters4.07043170156f49ae03db.png",
+    "static/media/background.png": "/vendettacity/static/media/background.769125c168742a661769.png",
     "static/media/weapons_usi.png": "/vendettacity/static/media/weapons_usi.fe5b1125ef954d188d4c.png",
     "static/media/cartelCharacters3.png": "/vendettacity/static/media/cartelCharacters3.c8e2eb0a509263699a46.png",
     "static/media/cartelCharacters2.png": "/vendettacity/static/media/cartelCharacters2.aaecb23a3c0d9bfbdfb9.png",
@@ -29,7 +29,6 @@
     "static/media/mask.svg": "/vendettacity/static/media/mask.d9033182468a1a700e5320b4739443cb.svg",
     "static/media/cars_2.png": "/vendettacity/static/media/cars_2.0946c57674602429a86f.png",
     "static/media/cars_4.png": "/vendettacity/static/media/cars_4.a6df255828c605d13407.png",
-    "static/media/Map.svg": "/vendettacity/static/media/Map.9ed59866692e9229a11841c4c7c8b7f5.svg",
     "static/media/armor_bulletproof1.png": "/vendettacity/static/media/armor_bulletproof1.d105ab624fd6685b4730.png",
     "static/media/gta10.png": "/vendettacity/static/media/gta10.ad947a09fc6714178ea8.png",
     "static/media/cars_3.png": "/vendettacity/static/media/cars_3.a17f112b73847db9656b.png",
@@ -37,7 +36,6 @@
     "static/media/cars_1.png": "/vendettacity/static/media/cars_1.0d9384d0eb442a7bf195.png",
     "static/media/armor_bulletproof2.png": "/vendettacity/static/media/armor_bulletproof2.23d60e0ab142f6149209.png",
     "static/media/Cartel.png": "/vendettacity/static/media/Cartel.b6a1ca29525cc2bd973d.png",
-    "static/media/background.png": "/vendettacity/static/media/background.769125c168742a661769.png",
     "static/media/gta6.png": "/vendettacity/static/media/gta6.971d0a9d99d66700cfac.png",
     "static/media/cartelImage.png": "/vendettacity/static/media/cartelImage.886a6a04b5cac4bb6a06.png",
     "static/media/armor_bulletproof4.png": "/vendettacity/static/media/armor_bulletproof4.22f95b1763b08b104bd1.png",
@@ -51,11 +49,11 @@
     "static/media/vendettacity.svg": "/vendettacity/static/media/vendettacity.b00a71980ac3542b52a01f06f9ca5ba2.svg",
     "index.html": "/vendettacity/index.html",
     "static/media/burger.svg": "/vendettacity/static/media/burger.5889d4ba2b78e8bb4df3ed72317e7012.svg",
-    "main.e23bbd71.css.map": "/vendettacity/static/css/main.e23bbd71.css.map",
-    "main.c59e74b2.js.map": "/vendettacity/static/js/main.c59e74b2.js.map"
+    "main.6a59907b.css.map": "/vendettacity/static/css/main.6a59907b.css.map",
+    "main.5f38995d.js.map": "/vendettacity/static/js/main.5f38995d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e23bbd71.css",
-    "static/js/main.c59e74b2.js"
+    "static/css/main.6a59907b.css",
+    "static/js/main.5f38995d.js"
   ]
 }
