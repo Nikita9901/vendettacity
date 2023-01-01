@@ -31,7 +31,7 @@ const Cartel = () => {
         },
     ]
     return(
-        <div className={styles.container} >
+        <div className={styles.container} id={'cartel'}>
             {data.map((el) => <ImageInfo image={el.image} active={activeImage === el.id} activeImage={activeImage} setActiveImage={setActiveImage} id={el.id} text={el.text}/>)}
         </div>
     )

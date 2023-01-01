@@ -148,7 +148,7 @@ const Boosts = () => {
         setCurrentInfo(currentSlide===3 ? 0 : currentSlide+1)
     }
     return(
-        <div className={styles.container}>
+        <div className={styles.container} id={'boosts'}>
             <div className={styles.header}>Boosts</div>
             <div className={styles.block}>
                 {boosts.map((el) => active === el.id ?

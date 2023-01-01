@@ -9,7 +9,7 @@ const NewsPaper = () => {
         <div className={styles.container}>
             <img src={pistol} alt="" className={styles.pistolImage}/>
             <img src={newspaper} alt="" className={styles.newspaperImage}/>
-            <img src={roadmap} alt="" className={styles.roadmapImage}/>
+            <img src={roadmap} alt="" className={styles.roadmapImage} id={'roadmap'}/>
         </div>
     )
 }

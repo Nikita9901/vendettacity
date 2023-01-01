@@ -87,8 +87,3 @@
 .burgerImage:hover{
     width: 48px;
 }
-.animateBlock{
-    position: absolute;
-    left: -17%;
-    display: none;
-}

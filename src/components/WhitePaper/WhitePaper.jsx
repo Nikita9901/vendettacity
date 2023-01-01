@@ -8,9 +8,9 @@ import styles from "./WhitePaper.module.css"
 
 const WhitePaper = () => {
     return(
-        <div className={styles.container}>
+        <div className={styles.container} id={'whitepaper'}>
             <div className={styles.header}>Whitepaper</div>
-            <img src={gta10} alt="" className={styles.gta10}/>
+            <img src={gta10} alt="hello" className={styles.gta10}/>
             <div className={styles.button}>read more</div>
             <div className={styles.icons}>
                 <img src={twitico} alt="" className={styles.icon}/>

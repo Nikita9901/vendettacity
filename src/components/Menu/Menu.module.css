@@ -1,0 +1,48 @@
+.container{
+    position: fixed;
+    left: -18px;
+    top: -18px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    animation: animMenu .3s 1;
+    display: relative;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    text-decoration: none;
+    position: absolute;
+    left: 42%;
+    top: 30%;
+    font-family: 'New Rocker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 86px;
+    text-align: center;
+    color: white;
+}
+.background{
+    width: 104%;
+    height: 104%;
+}
+.close{
+    position: absolute;
+    right: 25px;
+    top: 50px;
+    cursor: pointer;
+    transition: all .2s;
+}
+.close:hover{
+    transform: scale(1.1);
+}
+
+@keyframes animMenu {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

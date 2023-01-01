@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { 
   HomePage, 
   Story, 
@@ -7,7 +7,8 @@ import {
   Characters, 
   Boosts, 
   NewsPaper,
-  WhitePaper
+  WhitePaper,
+  Menu
 } from '../components';
 import {VendettaCity} from '../components/VendettaCity'
 import styles from './App.module.css';
@@ -34,18 +35,23 @@ import styles from './App.module.css';
 // }
 
 function App() {
+  const [menuActive, setMenuActive] = useState(false)
   let pixels = 0;
+  const setPixels = (number) => {
+    pixels = number;
+  }
   window.addEventListener('wheel', function(event) {
     if (pixels < 0) pixels = 0
     else if (pixels > document.documentElement.scrollWidth-window.outerWidth+100) 
       pixels = document.documentElement.scrollWidth-window.outerWidth+100
-    else pixels = pixels + event.deltaY;
+    else setPixels(pixels + event.deltaY);
     window.scrollTo(pixels, 0)
   });
   return (
     <div>
       <div className={styles.wrapper} style={{scrollBehavior: 'smooth'}}>
-        <HomePage/>
+        {menuActive ? <Menu setMenuActive={setMenuActive} setPixels={setPixels}/> : null}
+        <HomePage setMenuActive={setMenuActive}/>
         <div className={styles.animateBlock}>
           <VendettaCity/>
         </div>

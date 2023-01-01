@@ -13,6 +13,7 @@ const OpenImage = ({text, image, header, id, logo}) => {
                 <div className={styles.description}>{text}</div>
                 <div className={styles.button}>read more</div>
             </div>
+            {/* <img src={image} alt=""  className={styles.background}/> */}
         </div>
     )
 }

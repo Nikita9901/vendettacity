@@ -12,7 +12,7 @@ const Characters = () => {
         else if (window.scrollX < 5100 && anim) setAnim(false)
       });
     return(
-        <div className={styles.container}>
+        <div className={styles.container} id={'characters'}>
             <div className={styles.animateBlock}><VendettaCity/></div>
             
             {/* <img src={vendettacity} alt={'vendettacity'} className={classnames(styles.vendettacityImage, anim ? styles.active : null)}/> */}

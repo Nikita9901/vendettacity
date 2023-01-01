@@ -79,3 +79,10 @@
         opacity: 1;
     }   
 }
+
+@media (max-height: 1290px) {
+    .text{
+        font-weight: 600;
+        font-size: 20px;
+    }
+}
