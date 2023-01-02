@@ -29,27 +29,31 @@ const Boosts = () => {
             data: [
                 {
                     id: 1,
-                    name: 'Pistol',
+                    name: 'Handgun',
                     image: weapon1,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
+                    description: 'A first level weapon that increases your chances of winning a battle when attacking an enemy district',
+                    bonus: ['Bonus to attack : +3'],
                 },
                 {
                     id: 2,
-                    name: 'Submachine Gun',
-                    image: weapon2,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
+                    name: 'Usi',
+                    image: weapon3,
+                    description: 'A second-level weapon that increases your chances of winning in combat when attacking an enemy district',
+                    bonus: ['Bonus to attack : +5'],
                 },
                 {
                     id: 3,
-                    name: 'Usi',
-                    image: weapon3,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
+                    name: 'Thompson submachine gun',
+                    image: weapon2,
+                    description: 'A level 3 weapon that increases your chances of winning a battle when attacking an enemy district',
+                    bonus: ['Bonus to attack : +7'],
                 },
                 {
                     id: 4,
                     name: 'Machine Gun',
                     image: weapon4,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
+                    description: 'A level 4 weapon that increases your chances of winning a battle when attacking an enemy district',
+                    bonus: ['Bonus to attack : +9'],
                 },
             ]
         },
@@ -59,27 +63,31 @@ const Boosts = () => {
             data: [
                 {
                     id: 1,
-                    name: 'Pistol',
+                    name: 'Car lvl 1',
                     image: car1,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
+                    description: 'This car will help you attack more distant districts.',
+                    bonus: ['Bonus to move: +1'],
                 },
                 {
                     id: 2,
-                    name: 'Submachine Gun',
+                    name: 'Car lvl 2',
                     image: car2,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
+                    description: 'This car will help you attack more distant districts and strengthen your protection',
+                    bonus: ['Bonus to move: +1', 'Bonus to protection : +3'],
                 },
                 {
                     id: 3,
-                    name: 'Usi',
+                    name: 'Car lvl 3',
                     image: car3,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
+                    description: 'This car will help you attack more distant districts and strengthen your attack power',
+                    bonus: ['Bonus to move: +1', 'Bonus to attack : +3'],
                 },
                 {
                     id: 4,
-                    name: 'Machine Gun',
+                    name: 'Car lvl 4',
                     image: car4,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
+                    description: 'This car will help you attack more distant districts, strengthen your attack power and strengthen your protection',
+                    bonus: ['Bonus to move: +1', 'Bonus to attack : +3', 'Bonus to protection : +3'],
                 },
             ]
         },
@@ -89,27 +97,10 @@ const Boosts = () => {
             data: [
                 {
                     id: 1,
-                    name: 'Pistol',
-                    image: car1,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
-                },
-                {
-                    id: 2,
-                    name: 'Submachine Gun',
-                    image: car2,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
-                },
-                {
-                    id: 3,
-                    name: 'Usi',
-                    image: car3,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
-                },
-                {
-                    id: 4,
-                    name: 'Machine Gun',
-                    image: car4,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
+                    name: 'Alibi',
+                    image: null,
+                    description: 'An alibi keeps you out of jail if the district you are in is raided by cops.',
+                    bonus:[],
                 },
             ]
         },
@@ -119,27 +110,31 @@ const Boosts = () => {
             data: [
                 {
                     id: 1,
-                    name: 'Pistol',
+                    name: 'Bulletproof vest lvl 1',
                     image: armorBullet1,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
+                    description: 'Bulletproof vest increases the chance of surviving in combat while defending your area',
+                    bonus: ['Bonus to protection : +3'],
                 },
                 {
                     id: 2,
-                    name: 'Submachine Gun',
+                    name: 'Bulletproof vest lvl 2',
                     image: armorBullet2,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
+                    description: 'Bulletproof vest increases the chance of surviving in combat while defending your area',
+                    bonus: ['Bonus to protection : +5'],
                 },
                 {
                     id: 3,
-                    name: 'Usi',
+                    name: 'Bulletproof vest lvl 3',
                     image: armorBullet3,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
+                    description: 'Bulletproof vest increases the chance of surviving in combat while defending your area',
+                    bonus: ['Bonus to protection : +7'],
                 },
                 {
                     id: 4,
-                    name: 'Machine Gun',
+                    name: 'Bulletproof vest lvl 4',
                     image: armorBullet4,
-                    description: 'A reliable and powerful weapon that will help you win any fight, be sure to take it to increase your chances of winning!',
+                    description: 'Bulletproof vest increases the chance of surviving in combat while defending your area',
+                    bonus: ['Bonus to protection : +9'],
                 },
             ]
         },
@@ -155,7 +150,7 @@ const Boosts = () => {
                 <div className={styles.carousel}>
                     <Carousel 
                         dots={false} 
-                        style={{width:'550px'}} 
+                        style={{width:'560px'}} 
                         arrows={true} 
                         prevArrow={<img src={leftArrow} alt="prev" className={styles.arrow}/>} 
                         nextArrow={<img src={rightArrow} alt="next" className={styles.arrow}/>}
@@ -166,13 +161,14 @@ const Boosts = () => {
                             <div>
                                 <div className={styles.headerCarousel}>{info.name}</div>
                                 <div className={styles.description}>{info.description}</div>
+                                {info.bonus.map((boost) => <div className={styles.bonus}>{boost}</div>)}
                             </div>
                         </div>
                         )}
                     </Carousel>
                 </div>
                  : null)}
-                <Buttons setActive={setActive} active={active} image={boosts[active-1].data[currentInfo].image}/>
+                <Buttons setActive={setActive} active={active} image={boosts[active-1].data[currentInfo].image} setCurrentInfo={setCurrentInfo}/>
             </div>
         </div>
     )

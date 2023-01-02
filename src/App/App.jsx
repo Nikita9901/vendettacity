@@ -36,26 +36,30 @@ import styles from './App.module.css';
 
 function App() {
   const [menuActive, setMenuActive] = useState(false)
-  let pixels = 0;
+  let pixels = window.pageXOffset;
   const setPixels = (number) => {
     pixels = number;
   }
-  window.addEventListener('wheel', function(event) {
-    if (pixels < 0) pixels = 0
-    else if (pixels > document.documentElement.scrollWidth-window.outerWidth+100) 
-      pixels = document.documentElement.scrollWidth-window.outerWidth+100
-    else setPixels(pixels + event.deltaY);
-    window.scrollTo(pixels, 0)
-  });
+  if (window.outerWidth > 1000)
+    window.addEventListener('wheel', function(event) {
+      if (pixels < 0) pixels = 0
+      else if (pixels > document.documentElement.scrollWidth-window.outerWidth+100) 
+        pixels = document.documentElement.scrollWidth-window.outerWidth+100
+      else setPixels(pixels + event.deltaY);
+      window.scrollTo(pixels, 0)
+    });
   return (
     <div>
       <div className={styles.wrapper} style={{scrollBehavior: 'smooth'}}>
         {menuActive ? <Menu setMenuActive={setMenuActive} setPixels={setPixels}/> : null}
+        <div className={styles.header}>
+          Vendettacity
+        </div>
         <HomePage setMenuActive={setMenuActive}/>
         <div className={styles.animateBlock}>
           <VendettaCity/>
         </div>
-        <Story/>
+        <Story setMenuActive={setMenuActive}/>
         <Cartel/>
         <Map/>
         <Characters/>

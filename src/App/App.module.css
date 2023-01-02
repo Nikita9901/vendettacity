@@ -5,6 +5,7 @@
     scroll-behavior: smooth;
     display: flex;
     width: max-content;
+    background-color: #222222;
 }
 .vendettacityImage{
     margin-top: -1000px;
@@ -19,6 +20,39 @@
     width: 300px;
     background-color: #222222;
     position: relative;
+}
+.header{
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    background:rgba(147, 145, 145, 0.58);
+    font-family: 'New Rocker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color:white;
+    z-index: 3;
+}
+@media (max-width: 1000px) {
+    .wrapper{
+        overflow-x: hidden;
+        overflow-y: auto;
+        flex-direction: column;
+        padding-top: 65px;
+    }
+    .header{
+        display: flex;
+        padding-left: 50px;
+        align-items: center;
+    }
+    .animateBlock{
+        width: 100vw;
+        height: 200px;
+    }
 }
 /* .animateBlock{
     position: absolute;

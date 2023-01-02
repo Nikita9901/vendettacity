@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     scroll-behavior: smooth;
+    min-width: 1480px;
 }
 .header{
     color: white;
@@ -35,7 +36,7 @@
     line-height: 34px;
     text-align: justify;
     padding: 0 15px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 .headerCarousel{
     color: white;
@@ -52,13 +53,22 @@
     display: flex;
     flex-direction: row;
     margin-right: 100px;
-    align-items: center;
-    justify-content: center;
+    max-width: 560px;
 }
 .arrow{
     height: 48px;
     margin: 0 15px;
 }
 .arrow:hover{
-    opacity: .8;
+    opacity: .3;
+}
+.bonus{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
 }

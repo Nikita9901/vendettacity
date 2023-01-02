@@ -14,3 +14,4 @@ export {default as cosanostraCharactersImage1} from './cosanostraCharacters1.png
 export {default as cosanostraCharactersImage2} from './cosanostraCharacters2.png'
 export {default as cosanostraCharactersImage3} from './cosanostraCharacters3.png'
 export {default as cosanostraCharactersImage4} from './cosanostraCharacters4.png'
+export {default as prisonerCharactersImage1} from './prisonerCharacters1.png'

@@ -5,6 +5,7 @@
     color: white;
     position: relative;
     display: flex;
+    min-width: 1480px;
     align-items: center;
 }
 .vendettacityImage{

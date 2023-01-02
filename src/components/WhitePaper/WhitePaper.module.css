@@ -8,6 +8,10 @@
 }
 .gta10{
     width: 900px;
+    position: relative;
+}
+.whitepaper{
+    width: 100%;
 }
 .header{
     color: white;
@@ -25,7 +29,7 @@
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    font-family: 'Montagu Slab';
+    font-family: 'Montserrat';
     cursor: pointer;
     transition: all .1s;
     margin-top: 2%;
@@ -55,6 +59,65 @@
     line-height: 27px;
     color: white;
     margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.imprint{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all .3s;
+}
+.imprint:hover{
+    opacity: .8;
+}
+.imprintWindow{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width:100%;
+    height: 100%;
+    left: 0;
+    background:rgba(53, 52, 52, 0.75);
+    top: 0;
+    animation: animImprint .2s 1;
+}
+@keyframes animImprint {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.headerImprint{
+    font-family: 'New Rocker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    position: absolute;
+    top: 40px;
+}
+.textAbout{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 25px;
+}
+.closeButton{
+    width: 37px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.closeButton:hover{
+    transform: scale(1.1);
 }
 @media (max-width: 1550px) {
     .gta10{
@@ -72,5 +135,13 @@
     }
     .rights{
         font-size: 15px;
+    }
+    .headerImprint{
+        top: 20px;
+        font-size: 38px;
+    }
+    .textAbout{
+        font-size: 20px;
+        margin-bottom: 15px;
     }
 }

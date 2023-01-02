@@ -11,8 +11,17 @@
     font-weight: 400;
     font-size: 80px;
     position: absolute;
-    left: 38%;
     z-index: 1;
+}
+.text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+    position: absolute;
+    bottom: 130px;
 }
 .legend{
     position: absolute;
@@ -37,8 +46,24 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 .imageMask{
     z-index: 1;
+}
+.mapTablet{
+    display: none;
+}
+@media (max-width:1000px) {
+    .container{
+        width: 100vw;
+        height: auto;
+    }
+    .svgImage{
+        display: none;
+    }
+    .mapTablet{
+        width: 100%;
+    }
 }

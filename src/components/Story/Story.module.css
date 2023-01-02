@@ -87,3 +87,9 @@
 .burgerImage:hover{
     width: 48px;
 }
+@media (max-width:1000px) {
+    .container{
+        height: 1000px;
+        width: 1000px;
+    }
+}

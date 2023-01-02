@@ -11,9 +11,10 @@
     top:15px;
     cursor: pointer;
     transition: .3s;
+    z-index: 3;
 }
 .burgerImage:hover{
-    width: 48px;
+    transform: scale(1.1);
 }
 .container{
     background-color: #222222;

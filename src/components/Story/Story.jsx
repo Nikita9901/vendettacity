@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import {VendettaCity} from '../VendettaCity'
 import classnames from 'classnames';
 import gta10 from "./images/gta10.png";
 import gta6 from "./images/gta6.png";
 import burger from './images/burger.svg'
 import styles from "./Story.module.css";
 
-const Story = () => {
+const Story = ({setMenuActive}) => {
     const [anim, setAnim] = useState({
         vcity:false,
         images: false,
@@ -44,7 +43,7 @@ const Story = () => {
                 worthwhile, you got a job as a waiter in a small bar in the city center.</div>
                 <div className={classnames(styles.button, anim.text ? styles.activeText : null)}>read more</div>
             </div>
-            <img src={burger} alt={burger} className={styles.burgerImage}/>
+            <img src={burger} alt={burger} className={styles.burgerImage} onClick={() => {setMenuActive(true)}}/>
         </div>
     )
 }

@@ -11,3 +11,17 @@
     padding-left: 25px;
     background-color: #222222;
 }
+@media (max-width: 1000px) {
+    .animateText{
+        transform: none;
+        width: 100%;
+        height: 200px;
+        position: unset;
+        padding-left: 0;
+        line-height: 180px;
+        font-size: 170px;
+    }
+    .animateText div{
+        overflow-y: hidden;
+    }
+}

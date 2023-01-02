@@ -2,6 +2,7 @@
     width: 180vw;
     background-image: url('./images/bricks.png');
     display: flex;
+    min-width: 2640px;
     align-items: center;
 }
 .pistolImage{

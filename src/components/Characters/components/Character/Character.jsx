@@ -16,7 +16,9 @@ import {
     cosanostraCharactersImage1,
     cosanostraCharactersImage2,
     cosanostraCharactersImage3,
-    cosanostraCharactersImage4} from './images'
+    cosanostraCharactersImage4,
+    prisonerCharactersImage1
+} from './images'
 import {CharacterImage} from '../CharacterImage'
 import styles from "./Character.module.css"
 
@@ -42,6 +44,11 @@ const Character = () => {
             id: 4,
             text: 'Cosa Nostra',
             images: [cosanostraCharactersImage1,cosanostraCharactersImage2,cosanostraCharactersImage3,cosanostraCharactersImage4],
+        },
+        {
+            id: 5,
+            text: 'Prisoner',
+            images: [prisonerCharactersImage1],
         },
     ]
     return(

@@ -8,4 +8,5 @@
     flex-direction: row;
     width: 100vw;
     display: flex;
+    min-width: 1430px;
 }

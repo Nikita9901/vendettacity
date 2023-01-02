@@ -4,7 +4,7 @@
     top: -18px;
     width: 100vw;
     height: 100vh;
-    z-index: 3;
+    z-index: 5;
     animation: animMenu .3s 1;
     display: relative;
     align-items: center;
@@ -23,6 +23,16 @@
     text-align: center;
     color: white;
 }
+.anchor{
+    text-decoration: none;
+    color: white;
+    transition: all .2s;
+    cursor: pointer;
+}
+.anchor:hover{
+    opacity: .9;
+    color:rgb(200, 184, 169);
+}
 .background{
     width: 104%;
     height: 104%;
@@ -35,6 +45,24 @@
     transition: all .2s;
 }
 .close:hover{
+    transform: scale(1.1);
+}
+
+.icons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    left: 140px;
+    bottom: 10px;
+}
+.icon{
+    margin-bottom: 10px;
+    width: 52px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.icon:hover{
     transform: scale(1.1);
 }
 
