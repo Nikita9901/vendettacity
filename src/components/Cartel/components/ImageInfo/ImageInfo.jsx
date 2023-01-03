@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 import {OpenImage} from '../OpenImage'
-import { cartelbgImage, logoCartel} from "./images";
+import { cartelbgImage, triadabgImage, cosanostrabgImage, russiansbgImage, logoCartel} from "./images";
 import styles from "./ImageInfo.module.css"
 
 const ImageInfo = ({active, image, setActiveImage, id, text, activeImage}) => {
@@ -17,21 +17,21 @@ const ImageInfo = ({active, image, setActiveImage, id, text, activeImage}) => {
             id: 2,
             header: "Russians",
             description: "The Russians are from CIS countries, some of them have done more than one term before getting into the gang. Every one of them could be put away for a lot of time if the gang weakened, but now the cops and everyone around them are afraid to deal with them.",
-            image: cartelbgImage,
+            image: russiansbgImage,
             logo: logoCartel,
         },
         {  
             id: 3,
             header: "Triada",
             description: "Triad - gangs within which there is strict discipline and hierarchy, these guys are organized and well prepared to deal with any issues with any people. They have no such thing as fear, such a feeling that each of them will be ready to go out alone against a dozen.",
-            image: cartelbgImage,
+            image: triadabgImage,
             logo: logoCartel,
         },
         {  
             id: 4,
             header: "Cosa nostra",
             description: "Casa Nostra - calculating and judicious, these guys solve issues without too much fuss and noise, but the consequences are like shouting that the Cosa Nostra do not play by small things - they take everything and at once.",
-            image: cartelbgImage,
+            image: cosanostrabgImage,
             logo: logoCartel,
         },
     ]

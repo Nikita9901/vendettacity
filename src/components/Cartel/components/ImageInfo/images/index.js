@@ -1,2 +1,5 @@
 export {default as cartelbgImage} from './cartelImage.png'
+export {default as russiansbgImage} from './russiansImage.png'
+export {default as triadabgImage} from './triadaImage.png'
+export {default as cosanostrabgImage} from './cosanostraImage.png'
 export {default as logoCartel} from './logoCartel.png'

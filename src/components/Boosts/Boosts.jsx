@@ -16,7 +16,8 @@ import {
     armorBullet3,
     armorBullet4,
     rightArrow,
-    leftArrow
+    leftArrow,
+    alibi,
 } from "./images";
 
 const Boosts = () => {
@@ -98,7 +99,7 @@ const Boosts = () => {
                 {
                     id: 1,
                     name: 'Alibi',
-                    image: null,
+                    image: alibi,
                     description: 'An alibi keeps you out of jail if the district you are in is raided by cops.',
                     bonus:[],
                 },
@@ -139,8 +140,8 @@ const Boosts = () => {
             ]
         },
     ]
-    const onChange = (currentSlide) => {
-        setCurrentInfo(currentSlide===3 ? 0 : currentSlide+1)
+    const onChange = (currentSlide, nextSlide) => {
+        setCurrentInfo(nextSlide)
     }
     return(
         <div className={styles.container} id={'boosts'}>

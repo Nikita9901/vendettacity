@@ -39,8 +39,9 @@
 }
 .close{
     position: absolute;
+    width: 80px;
     right: 25px;
-    top: 50px;
+    top: 30px;
     cursor: pointer;
     transition: all .2s;
 }

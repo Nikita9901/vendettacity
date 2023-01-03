@@ -24,12 +24,12 @@ const Map = () => {
     //   });
     return(
         <div className={styles.container} id={'map'}>
-            <img src={legend} alt="" className={styles.legend}/>
+            
             <div className={styles.imagep} ref={imageRef}> 
+                <img src={legend} alt="" className={styles.legend}/>
                 <div className={styles.header}>Game Map</div>
                 <div className={styles.text}>Discover, who rules in this city</div>
                 <img src={mapsvg} alt="map" className={styles.mapTablet}/>
-                <image width="100%" height="100%" x="0" y="0" xlinkHref={mapsvg} fill="white" opacity="1" className={styles.svgImage}></image>
                 <svg x="0px" y="0px" height="100%" width={'100%'} viewBox="0 0 1874 1076" className={styles.svgImage}>
                     <mask id="mask">
                         <rect width="100%" height="100%" x="0" y="0" fill="white" opacity="1"/>
