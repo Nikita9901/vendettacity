@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/vendettacity/static/css/main.15a02e32.css",
-    "main.js": "/vendettacity/static/js/main.0ad57767.js",
+    "main.css": "/vendettacity/static/css/main.3ebea19a.css",
+    "main.js": "/vendettacity/static/js/main.dba0b734.js",
     "static/media/map.png": "/vendettacity/static/media/map.7b36f5932010228d92be.png",
     "static/media/russiansCharacters4.png": "/vendettacity/static/media/russiansCharacters4.1feb75811f45d23023b5.png",
     "static/media/russiansCharacters1.png": "/vendettacity/static/media/russiansCharacters1.d090777213f90970b5d2.png",
     "static/media/russiansCharacters3.png": "/vendettacity/static/media/russiansCharacters3.678733834eb647f41f56.png",
     "static/media/russiansCharacters2.png": "/vendettacity/static/media/russiansCharacters2.78ef197fec14a87eb135.png",
-    "static/media/roadmap.png": "/vendettacity/static/media/roadmap.6208fa3bedc048b92c3d.png",
-    "static/media/bricks.png": "/vendettacity/static/media/bricks.c06750286edf59cf2f22.png",
-    "static/media/cartelCharacters4.png": "/vendettacity/static/media/cartelCharacters4.07043170156f49ae03db.png",
     "static/media/background.png": "/vendettacity/static/media/background.769125c168742a661769.png",
+    "static/media/bricks.png": "/vendettacity/static/media/bricks.c06750286edf59cf2f22.png",
+    "static/media/board.png": "/vendettacity/static/media/board.f8b464517498447630c2.png",
+    "static/media/cartelCharacters4.png": "/vendettacity/static/media/cartelCharacters4.07043170156f49ae03db.png",
     "static/media/cartelCharacters3.png": "/vendettacity/static/media/cartelCharacters3.c8e2eb0a509263699a46.png",
     "static/media/cartelCharacters2.png": "/vendettacity/static/media/cartelCharacters2.aaecb23a3c0d9bfbdfb9.png",
     "static/media/triadaCharacters4.png": "/vendettacity/static/media/triadaCharacters4.218932867de474fececf.png",
@@ -22,9 +22,11 @@
     "static/media/homepage.png": "/vendettacity/static/media/homepage.f4f41ae29dd81124a726.png",
     "static/media/cosanostraCharacters4.png": "/vendettacity/static/media/cosanostraCharacters4.518fea41c414903ac844.png",
     "static/media/cosanostraCharacters1.png": "/vendettacity/static/media/cosanostraCharacters1.bb24ab3c7d88e2872e0a.png",
-    "static/media/mask.svg": "/vendettacity/static/media/mask.d9033182468a1a700e5320b4739443cb.svg",
-    "static/media/gta10.png": "/vendettacity/static/media/gta10.ad947a09fc6714178ea8.png",
-    "static/media/newspaper.png": "/vendettacity/static/media/newspaper.233b8cf416b3a6ca7d60.png",
+    "static/media/mask.svg": "/vendettacity/static/media/mask.466035ebe6e5b25a849f5a702b24d332.svg",
+    "static/media/gta10.png": "/vendettacity/static/media/gta10.4ca593948dd7cbfd3dfa.png",
+    "static/media/gta10mob.png": "/vendettacity/static/media/gta10mob.3661f7a2f3cdfbaec73f.png",
+    "static/media/threads.png": "/vendettacity/static/media/threads.beaf8bc3ca59130e0463.png",
+    "static/media/newspaper.png": "/vendettacity/static/media/newspaper.045f8ced229b8e1bbc07.png",
     "static/media/Cartel.png": "/vendettacity/static/media/Cartel.b6a1ca29525cc2bd973d.png",
     "static/media/gta6.png": "/vendettacity/static/media/gta6.971d0a9d99d66700cfac.png",
     "static/media/cartelImage.png": "/vendettacity/static/media/cartelImage.a4f218f2daafbe2c44fc.png",
@@ -52,13 +54,14 @@
     "static/media/cars_2.png": "/vendettacity/static/media/cars_2.029e98fd9a2df19e93ce.png",
     "static/media/cars_1.png": "/vendettacity/static/media/cars_1.028d28a20f58de39d7b5.png",
     "static/media/vendettacity.svg": "/vendettacity/static/media/vendettacity.b00a71980ac3542b52a01f06f9ca5ba2.svg",
+    "static/media/logo.svg": "/vendettacity/static/media/logo.1a59fec8448f08541082f95033343840.svg",
     "index.html": "/vendettacity/index.html",
     "static/media/burger.svg": "/vendettacity/static/media/burger.5889d4ba2b78e8bb4df3ed72317e7012.svg",
-    "main.15a02e32.css.map": "/vendettacity/static/css/main.15a02e32.css.map",
-    "main.0ad57767.js.map": "/vendettacity/static/js/main.0ad57767.js.map"
+    "main.3ebea19a.css.map": "/vendettacity/static/css/main.3ebea19a.css.map",
+    "main.dba0b734.js.map": "/vendettacity/static/js/main.dba0b734.js.map"
   },
   "entrypoints": [
-    "static/css/main.15a02e32.css",
-    "static/js/main.0ad57767.js"
+    "static/css/main.3ebea19a.css",
+    "static/js/main.dba0b734.js"
   ]
 }
