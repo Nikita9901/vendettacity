@@ -36,6 +36,8 @@
 .background{
     width: 104%;
     height: 104%;
+    object-fit: cover;
+    object-position: center;
 }
 .close{
     position: absolute;
@@ -66,7 +68,22 @@
 .icon:hover{
     transform: scale(1.1);
 }
-
+.logo{
+    position: absolute;
+    top: -50px;
+    left: -85px;
+    width: 500px;
+}
+@media (max-width: 1350px) {
+    .logo{
+        width: 400px;
+        top: -30px;
+        left: -60px;
+    }
+    .icons{
+        left: 110px;
+    }
+}
 @keyframes animMenu {
     0%{
         opacity: 0;

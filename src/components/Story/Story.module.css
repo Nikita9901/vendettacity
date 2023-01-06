@@ -43,9 +43,18 @@
     padding-top: 50px;
     transition: all 1s;
 }
+.headerMob{
+    color: white;
+    display: none;
+    font-family: 'New Rocker', 'normal';
+    font-weight: 400;
+    font-size: 80px;
+    padding: 20px 0;
+    transition: all 1s;
+}
 
 .text{
-    font-family: 'Montagu Slab';
+    font-family: 'Montserrat';
     font-size: 24px;
     color: white;
     margin: 5% 0;
@@ -87,9 +96,51 @@
 .burgerImage:hover{
     width: 48px;
 }
+.image3{
+    display: none;
+}
 @media (max-width:1000px) {
+    .image3{
+        display: unset;
+        margin-left: -20%;
+    }
+    .image1{
+        margin-top: -170px;
+        margin-left: 20%;
+    }
+    .image2{
+        display: none;
+    }
+    .burgerImage{
+        display: none;
+    }
+    .textBlock{
+        position: unset;
+        left: unset;
+        top: unset;
+        padding-top: 0;
+    }
+    .text{
+        opacity: 1;
+        padding-top: 0;
+    }
+    .button{
+        opacity: 1;
+    }
+    .gtaImage{
+        position: unset;
+        width: 500px;
+    }
     .container{
-        height: 1000px;
-        width: 1000px;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header{
+        display: none;
+    }
+    .headerMob{
+        display: unset;
     }
 }
