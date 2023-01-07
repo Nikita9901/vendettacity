@@ -11,7 +11,7 @@
     padding-left: 25px;
     background-color: #222222;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .animateText{
         transform: none;
         width: 100%;

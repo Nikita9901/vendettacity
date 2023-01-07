@@ -37,10 +37,11 @@
     color:white;
     z-index: 3;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .wrapper{
+        width: 100vw;
         overflow-x: hidden;
-        overflow-y: auto;
+        overflow-y:unset;
         flex-direction: column;
         padding-top: 65px;
     }

@@ -5,3 +5,13 @@
 .block{
     width: 900px;
 }
+@media (max-width: 1200px) {
+    .image{
+        width: 100%;
+        height: unset;
+    }
+    .block{
+        max-width: 650px;
+        height: 480px;
+    }
+}

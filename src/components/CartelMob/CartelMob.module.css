@@ -1,0 +1,17 @@
+.container{
+    width: 100%;
+    height: unset;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    width: 100%;
+    position: relative;
+}
+@media (min-width: 1201px) {
+    .container{
+        display: none;
+    }
+}

@@ -37,3 +37,24 @@
         transform: scale(.8);
     }
 }
+@media (max-width: 1200px) {
+    .container{
+        max-width: unset;
+        width: 100vw;
+    }
+    .button_block{
+        margin-left: unset;
+    }
+    .block{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        text-align: center;
+        font-family: 'New Rocker';
+    }
+    .header{
+        font-size: 60px;
+    }
+}

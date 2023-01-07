@@ -13,6 +13,15 @@
     position: absolute;
     z-index: 1;
 }
+.headerMob{
+    color: white;
+    font-family: 'New Rocker', 'normal';
+    font-weight: 400;
+    font-size: 60px;
+    z-index: 1;
+    margin-bottom: 10px;
+    display: none;
+}
 .text{
     font-family: 'Montserrat';
     font-style: normal;
@@ -61,15 +70,29 @@
     margin-top: -3px;
     height: 101%;
 }
-@media (max-width:1000px) {
+.mapMob{
+    display: none;
+}
+@media (max-width:1200px) {
     .container{
-        width: 100vw;
-        height: auto;
-    }
-    .svgImage{
-        display: none;
-    }
-    .mapTablet{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
+        height: unset;
+        flex-direction: column;
+        cursor: unset;
+    }
+    .headerMob{
+        display: unset;
+        margin-top: 20px;
+    }
+    .mapMob{
+        display: unset;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .imagep{
+        display: none;
     }
 }

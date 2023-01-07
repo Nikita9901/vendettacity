@@ -6,8 +6,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
-    font-family: 'Montagu Slab';
     cursor: pointer;
     margin: 10px 0;
     font-family: 'Montserrat';
@@ -25,4 +23,12 @@
 }
 .button_block.active:hover{
     opacity: 1;
+}
+@media (max-width: 1200px) {
+    .button_block{
+        width: 100%;
+        min-width: 150px;
+        font-size: 25px;
+        height: 60px;
+    }
 }
