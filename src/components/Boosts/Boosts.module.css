@@ -72,6 +72,10 @@
     font-size: 23px;
     line-height: 30px;
 }
+.carouselBlock{
+    max-width: 560px;
+    display: flex;
+}
 @media (max-width: 1200px){
     .container{
         min-width: unset;
@@ -84,6 +88,7 @@
         margin-right: 0;
         margin-left: 5%;
         max-width: 40vw;
+        min-width: 40vw;
     }
     .block{
         max-width: unset;
@@ -103,6 +108,10 @@
     .bonus{
         font-size: 18px;
         line-height: 25px;
+    }
+    .carouselBlock{
+        max-width: 40vw;
+        min-width: 40vw;
     }
 }
 @media (max-width: 850px){
@@ -131,6 +140,7 @@
         height: 370px;
         justify-content: unset;
         align-items: center;
+        margin-left: 7%;
     }
     .header{
         font-size: 50px;

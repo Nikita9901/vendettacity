@@ -4,3 +4,9 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+@media (max-width: 1200px){
+  body{
+    overflow-y: unset;
+    overflow-x: hidden;
+  }
+}

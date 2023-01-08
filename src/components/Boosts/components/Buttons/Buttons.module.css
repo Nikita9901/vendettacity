@@ -91,12 +91,12 @@
 @media (max-width: 850px){
     .container{
         transform: scale(.5);
-        margin-left: -10%;
+        margin-left: -12%;
     }
 }
 @media (max-width: 750px){
     .container{
         transform: scale(.4);
-        margin-left: -10%;
+        margin-left: -20%;
     }
 }

@@ -168,7 +168,6 @@ const Boosts = () => {
             <div className={styles.carousel}>
               <Carousel
                 dots={false}
-                style={{ maxWidth: "40vw", display: "flex" }}
                 arrows={true}
                 prevArrow={
                   <img src={leftArrow} alt="prev" className={styles.arrow} />
@@ -177,6 +176,7 @@ const Boosts = () => {
                   <img src={rightArrow} alt="next" className={styles.arrow} />
                 }
                 beforeChange={onChange}
+                className={styles.carouselBlock}
               >
                 {el.data.map((info) => (
                   <div className={styles.infoBlock}>

@@ -1,0 +1,61 @@
+.container{
+    width: 100vw;
+    margin-top: 30px;
+}
+.pistolImage{
+    width: 90%;
+}
+.newspaper{
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newspaperImage{
+    width: 100%;
+}
+.board{
+    width: 100%;
+}
+.newspaperHeader{
+    font-family: 'New Rocker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.5vw;
+    line-height: 68px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw;
+    margin-top: 11vw;
+}
+.bottomtext{
+    font-family: 'New Rocker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 3vw;
+    margin-bottom: 5px;
+    width: 520px;
+}
+.newspaperText{
+    position: absolute;
+    width: 93%;
+    top:0;
+}
+.toptext{
+    font-family: 'New Rocker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 3vw;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+@media (min-width: 1201px) {
+    .container{
+        display: none;
+    }
+}

@@ -5,6 +5,7 @@ export { default as Map } from "./Map";
 export { default as Characters } from "./Characters";
 export { default as Boosts } from "./Boosts";
 export { default as NewsPaper } from "./NewsPaper";
+export { default as NewsPaperMob } from "./NewsPaperMob";
 export { default as WhitePaper } from "./WhitePaper";
 export { default as Menu } from "./Menu";
 export { default as CartelMob } from "./CartelMob";

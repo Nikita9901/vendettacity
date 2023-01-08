@@ -10,6 +10,7 @@ import {
   WhitePaper,
   Menu,
   CartelMob,
+  NewsPaperMob,
 } from "../components";
 import { VendettaCity } from "../components/VendettaCity";
 import styles from "./App.module.css";
@@ -70,6 +71,7 @@ function App() {
         <Characters />
         <Boosts />
         <NewsPaper />
+        <NewsPaperMob />
         <WhitePaper />
       </div>
     </div>
