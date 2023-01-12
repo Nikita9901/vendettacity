@@ -77,6 +77,7 @@ const NewsPaper = () => {
           <div className={styles.phase1Header}>
             Phase 4. April
             2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;
           </div>
           <div className={styles.phase4Text}>
             1. Dropping boosts to level 4. Unlocking the ability to create them.

@@ -36,7 +36,7 @@
 }
 .header{
     color: white;
-    font-family: 'New Rocker', 'normal';
+    font-family: 'New Rocker', sans-serif ;
     font-weight: 400;
     font-size: 80px;
     opacity: 0;
@@ -46,15 +46,15 @@
 .headerMob{
     color: white;
     display: none;
-    font-family: 'New Rocker', 'normal';
+    font-family: 'New Rocker', sans-serif;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 16vw;
     padding: 20px 0;
     transition: all 1s;
 }
 
 .text{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     color: white;
     margin: 5% 0;
@@ -72,7 +72,7 @@
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    font-family: 'Montagu Slab';
+    font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     transition: all 1s;
     opacity: 0;
@@ -102,10 +102,10 @@
 @media (max-width:1200px) {
     .image3{
         display: unset;
-        margin-left: -20%;
+        margin-left: -15vw;
     }
     .image1{
-        margin-top: -170px;
+        margin-top: -10vw;
         margin-left: 20%;
     }
     .image2{
@@ -123,8 +123,8 @@
     .text{
         opacity: 1;
         text-align: justify;
-        padding: 0 5px;
-        font-size: 18px;
+        padding: 0 15px;
+        font-size: 3vw;
     }
     .button{
         opacity: 1;
@@ -135,7 +135,7 @@
     }
     .gtaImage{
         position: unset;
-        width: 500px;
+        width: 70vw;
     }
     .container{
         height: unset;

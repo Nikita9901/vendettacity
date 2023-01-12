@@ -22,9 +22,10 @@
     .container{
         width: 100%;
         min-width: unset;
-        height: fit-content;
         max-height: 550px;
         margin-bottom: 30px;
+        transform: scale(1);
+        height: 80vw;
     }
     .animateBlock{
         display: none;
@@ -33,5 +34,45 @@
         margin-left: 0;
         max-width: 100vw;
         max-height: max-content;
+    }
+}
+@media (max-width: 680px) {
+    .container{
+        width: 100%;
+        min-width: unset;
+        max-height: 550px;
+        margin-bottom: 30px;
+        transform: scale(0.8);
+        height: 80vw;
+    }
+}
+@media (max-width: 550px) {
+    .container{
+        width: 100%;
+        min-width: unset;
+        max-height: 550px;
+        margin-bottom: 30px;
+        transform: scale(0.7);
+        height: 80vw;
+    }
+}
+@media (max-width: 470px) {
+    .container{
+        width: 100%;
+        min-width: unset;
+        max-height: 550px;
+        margin-bottom: 30px;
+        transform: scale(0.6);
+        height: 80vw;
+    }
+}
+@media (max-width: 420px) {
+    .container{
+        width: 100%;
+        min-width: unset;
+        max-height: 550px;
+        margin-bottom: 30px;
+        transform: scale(0.5);
+        height: 80vw;
     }
 }

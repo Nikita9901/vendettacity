@@ -14,27 +14,7 @@ import {
 } from "../components";
 import { VendettaCity } from "../components/VendettaCity";
 import styles from "./App.module.css";
-
-// const throttle = (func, limit) => {
-//   let lastFunc
-//   let lastRan
-//   return function() {
-//     const context = this
-//     const args = arguments
-//     if (!lastRan) {
-//       func.apply(context, args)
-//       lastRan = Date.now()
-//     } else {
-//       clearTimeout(lastFunc)
-//       lastFunc = setTimeout(function() {
-//         if ((Date.now() - lastRan) >= limit) {
-//           func.apply(context, args)
-//           lastRan = Date.now()
-//         }
-//       }, limit - (Date.now() - lastRan))
-//     }
-//   }
-// }
+import burger from "../components/Homepage/images/burger.svg";
 
 function App() {
   const [menuActive, setMenuActive] = useState(false);
@@ -42,7 +22,7 @@ function App() {
   const setPixels = (number) => {
     pixels = number;
   };
-  if (window.outerWidth > 1000)
+  if (window.outerWidth > 1200)
     window.addEventListener("wheel", function (event) {
       if (pixels < 0) pixels = 0;
       else if (
@@ -59,7 +39,17 @@ function App() {
         {menuActive ? (
           <Menu setMenuActive={setMenuActive} setPixels={setPixels} />
         ) : null}
-        <div className={styles.header}>Vendettacity</div>
+        <div className={styles.header}>
+          Vendettacity
+          <img
+            src={burger}
+            alt={burger}
+            className={styles.burgerImage}
+            onClick={() => {
+              setMenuActive(true);
+            }}
+          />
+        </div>
         <HomePage setMenuActive={setMenuActive} />
         <div className={styles.animateBlock}>
           <VendettaCity />

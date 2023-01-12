@@ -15,13 +15,6 @@ const Map = () => {
       setCoordinates([x, y]);
     });
   });
-  // $(".image").mousemove(function(e) {
-  //     var parentOffset = $(this).parent().offset();
-  //     var posX = (e.pageX - parentOffset.left) - 30;
-  //     var posY = (e.pageY - parentOffset.top) - 30;
-
-  //     $('mask g').attr('transform', 'translate(' + posX + ',' + posY + ')');
-  //   });
   return (
     <div className={styles.container} id={"map"}>
       <div className={styles.headerMob}>Game Map</div>
@@ -65,8 +58,6 @@ const Map = () => {
           ></image>
         </svg>
       </div>
-      {/* <div className={styles.mask}></div> */}
-      {/* <img src={map} alt="map" className={styles.mapImage}/> */}
     </div>
   );
 };

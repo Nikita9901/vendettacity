@@ -19,11 +19,11 @@
     width: 100%;
 }
 .newspaperHeader{
-    font-family: 'New Rocker';
+    font-family: 'New Rocker', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 4.5vw;
-    line-height: 68px;
+    line-height: 10vw;
     width: 100%;
     display: flex;
     align-items: center;
@@ -32,13 +32,13 @@
     margin-top: 11vw;
 }
 .bottomtext{
-    font-family: 'New Rocker';
+    font-family: 'New Rocker', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 2vw;
     line-height: 3vw;
-    margin-bottom: 5px;
-    width: 520px;
+    margin-bottom: 1vw;
+    width: 35vw;
 }
 .newspaperText{
     position: absolute;
@@ -46,13 +46,88 @@
     top:0;
 }
 .toptext{
-    font-family: 'New Rocker';
+    font-family: 'New Rocker', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 2vw;
     line-height: 3vw;
     text-align: justify;
-    margin-bottom: 15px;
+    margin-bottom: 1vw;
+}
+.roadmap{
+    position: relative;
+}
+.phase1Text{
+    font-size: 1.8vw;
+}
+.phase4Text{
+    font-size: 1.7vw;
+    line-height: 1.8vw;
+}
+.phase1Header{
+    font-weight: 700;
+    font-size:2.6vw;
+    line-height: 2vw;
+    margin-bottom: 2vw;
+}
+.phase1{
+    font-family: 'Kalam', sans-serif;
+    font-style: normal;
+    color: #000000;
+    transform: rotate(5.33deg);
+    position: absolute;
+    top: 22vw;
+    left:14vw;
+    display: flex;
+    min-width: 33vw;
+    max-width: 33vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.phase2{
+    font-family: 'Kalam', sans-serif;
+    font-style: normal;
+    color: #000000;
+    transform: rotate(-2.61deg);
+    position: absolute;
+    top: 65vw;
+    left:56vw;
+    display: flex;
+    min-width: 29vw;
+    max-width: 29vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.phase3{
+    font-family: 'Kalam', sans-serif;
+    font-style: normal;
+    color: #000000;
+    position: absolute;
+    top: 102vw;
+    left:18vw;
+    display: flex;
+    min-width: 46vw;
+    max-width: 46vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.phase4{
+    font-family: 'Kalam', sans-serif;
+    font-style: normal;
+    color: #000000;
+    transform: rotate(4.51deg);
+    position: absolute;
+    top: 135vw;
+    left:50vw;
+    display: flex;
+    min-width: 39vw;
+    max-width: 39vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 @media (min-width: 1201px) {
     .container{

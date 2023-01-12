@@ -17,13 +17,13 @@
 }
 .header{
     color: white;
-    font-family: 'New Rocker', 'normal';
+    font-family: 'New Rocker', sans-serif;
     font-weight: 400;
     font-size: 80px;
     margin-bottom: 20px;
 }
 .text{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     margin-top: 20px;
 }
@@ -52,7 +52,7 @@
     }
     .text{
         text-align: center;
-        font-family: 'New Rocker';
+        font-family: 'New Rocker', sans-serif;
     }
     .header{
         font-size: 60px;

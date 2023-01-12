@@ -7,7 +7,7 @@
 }
 .header{
     color: white;
-    font-family: 'New Rocker', 'normal';
+    font-family: 'New Rocker', sans-serif;
     font-weight: 400;
     font-size: 80px;
     position: absolute;
@@ -15,7 +15,7 @@
 }
 .headerMob{
     color: white;
-    font-family: 'New Rocker', 'normal';
+    font-family: 'New Rocker', sans-serif;
     font-weight: 400;
     font-size: 60px;
     z-index: 1;
@@ -23,7 +23,7 @@
     display: none;
 }
 .text{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;

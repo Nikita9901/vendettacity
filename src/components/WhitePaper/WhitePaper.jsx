@@ -5,6 +5,7 @@ import twitico from "./images/twitico.png";
 import logoico from "./images/logoico.png";
 import close from "./images/close.png";
 import styles from "./WhitePaper.module.css";
+import { discordLink, whitePaperButton, twitterLink, logoLink } from "../links";
 
 const WhitePaper = () => {
   const [imprintActive, setImprintActive] = useState(false);
@@ -35,11 +36,19 @@ const WhitePaper = () => {
           </div>
         ) : null}
       </div>
-      <div className={styles.button}>read</div>
+      <a href={whitePaperButton} className={styles.button}>
+        <div>read</div>
+      </a>
       <div className={styles.icons}>
-        <img src={twitico} alt="" className={styles.icon} />
-        <img src={discico} alt="" className={styles.icon} />
-        <img src={logoico} alt="" className={styles.icon} />
+        <a href={twitterLink}>
+          <img src={twitico} alt="" className={styles.icon} />
+        </a>
+        <a href={discordLink}>
+          <img src={discico} alt="" className={styles.icon} />
+        </a>
+        <a href={logoLink}>
+          <img src={logoico} alt="" className={styles.icon} />
+        </a>
       </div>
       <div className={styles.rights}>
         <div

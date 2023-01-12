@@ -1,8 +1,7 @@
 .container{
     background-image: url('./images/bricks.png');
     display: flex;
-    min-width: 230vw;
-
+    min-width: 335vh;
     align-items: center;
 }
 .pistolImage{
@@ -29,32 +28,32 @@
     width: 100%;
 }
 .phase1{
-    font-family: 'Kalam';
+    font-family: 'Kalam', sans-serif;
     font-style: normal;
     color: #000000;
     transform: rotate(5.65deg);
     position: absolute;
-    top: 20%;
-    left: 200px;
+    top: 20vh;
+    left: 23vh;
     display: flex;
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 30vh;
+    max-width: 30vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .phase1Header{
     font-weight: 700;
-    font-size: 22px;
-    line-height: 24px;
-    margin-bottom: 6px;
+    font-size:2.2vh;
+    line-height: 2vh;
+    margin-bottom: 1vh;
 }
 .phase1Text{
-    font-size: 16px;
+    font-size: 1.6vh;
 }
 .phase4Text{
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 1.3vh;
+    line-height: 1.6vh;
 }
 .boardImage{
     position: absolute;
@@ -73,7 +72,7 @@
     margin-right: 2%;
 }
 .newspaperHeader{
-    font-family: 'New Rocker';
+    font-family: 'New Rocker', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 55px;
@@ -86,7 +85,7 @@
     margin-top: 50px;
 }
 .bottomtext{
-    font-family: 'New Rocker';
+    font-family: 'New Rocker', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -99,7 +98,7 @@
     max-width: 546px;
 }
 .toptext{
-    font-family: 'New Rocker';
+    font-family: 'New Rocker', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
@@ -109,53 +108,50 @@
 }
 
 .phase2{
-    font-family: 'Kalam';
+    font-family: 'Kalam', sans-serif;
     font-style: normal;
     color: #000000;
     transform: rotate(-2.61deg);
     position: absolute;
-    top: 29.5%;
-    left:780px;
+    top: 29.5vh;
+    left:83vh;
     display: flex;
-    min-width: 250px;
-    max-width: 250px;
+    min-width: 25vh;
+    max-width: 25vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .phase3{
-    font-family: 'Kalam';
+    font-family: 'Kalam', sans-serif;
     font-style: normal;
     color: #000000;
     position: absolute;
-    top: 65%;
-    left:450px;
+    top: 64vh;
+    left:50vh;
     display: flex;
-    min-width: 400px;
-    max-width: 400px;
+    min-width: 40vh;
+    max-width: 40vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
+    line-height: 2vh;
 }
 .phase4{
-    font-family: 'Kalam';
+    font-family: 'Kalam', sans-serif;
     font-style: normal;
     color: #000000;
     position: absolute;
-    top: 67%;
-    left:1020px;
+    top: 64vh;
+    left:108vh;
     display: flex;
-    min-width: 330px;
-    max-width: 330px;
+    min-width: 33vh;
+    max-width: 33vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
     transform: rotate(4.51deg);
 }
 @media (max-height: 900px) {
@@ -198,202 +194,6 @@
         font-size: 40px;
         margin-bottom: 20px;
         margin-top: 70px;
-    }
-}
-@media (max-height: 935px){
-    .phase4{
-        left:1010px;
-    }
-}
-@media (max-height: 923px){
-    .phase1{
-        min-width: 260px;
-        max-width: 260px;
-    }
-    .phase1Header{
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 20px;
-        margin-bottom: 8px;
-    }
-    .phase1Text{
-        font-size: 15px;
-    }
-    .phase2{
-        min-width: 220px;
-        max-width: 220px;
-        left:760px;
-        top:29%;
-    }
-    .phase4{
-        left:1000px;
-        min-width: 300px;
-        max-width: 300px;
-    }
-    .phase4Text{
-        font-size: 12px;
-    }
-}
-@media (max-height: 900px){
-    .phase4{
-        left:980px;
-        min-width: 300px;
-        max-width: 300px;
-    }
-    .phase4Text{
-        font-size: 12px;
-    }
-}
-
-@media (max-height: 890px){
-    .phase2{
-        min-width: 220px;
-        max-width: 220px;
-        left:720px;
-        top:28%;
-    }
-    .phase3{
-        left: 415px;
-    }
-    .phase4{
-        left:967px;
-        min-width: 300px;
-        max-width: 300px;
-    }
-    .phase4Text{
-        font-size: 12px;
-    }
-}
-@media (max-height: 875px){
-    .phase4{
-        left:952px;
-        min-width: 300px;
-        max-width: 300px;
-    }
-    .phase4Text{
-        font-size: 12px;
-    }
-}
-@media (max-height: 865px){
-    .phase4{
-        left:940px;
-        min-width: 285px;
-        max-width: 285px;
-    }
-    .phase4Text{
-        font-size: 12px;
-    }
-}
-@media (max-height: 860px){
-    .phase4{
-        left:930px;
-        min-width: 285px;
-        max-width: 285px;
-    }
-    .phase4Text{
-        font-size: 12px;
-    }
-}
-@media (max-height: 860px){
-    .phase4{
-        left:923px;
-        min-width: 285px;
-        max-width: 285px;
-    }
-    .phase4Text{
-        font-size: 12px;
-    }
-}
-@media (max-height: 840px){
-    .phase1{
-        min-width: 230px;
-        max-width: 230px;
-        left:180px;
-    }
-    .phase1Header{
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 24px;
-        margin-bottom: 8px;
-    }
-    .phase1Text{
-        font-size: 13px;
-    }
-    .phase2{
-        min-width: 200px;
-        max-width: 200px;
-        left:680px;
-    }
-    .phase3{
-        max-width: 380px;
-        min-width: 380px;
-        left: 390px;
-    }
-    .phase4{
-        left:910px;
-        min-width: 275px;
-        max-width: 275px;
-    }
-    .phase4Text{
-        font-size: 11px;
-    }
-}
-@media (max-height: 820px){
-    .phase3{
-        max-width: 380px;
-        min-width: 380px;
-        left: 377px;
-    }
-    .phase4{
-        left:890px;
-        min-width: 275px;
-        max-width: 275px;
-    }
-    .phase4Text{
-        font-size: 11px;
-        margin-top: -8px;
-    }
-}
-@media (max-height: 800px){
-    .phase2{
-        min-width: 200px;
-        max-width: 200px;
-        left:650px;
-    }
-    .phase3{
-        max-width: 380px;
-        min-width: 380px;
-        left: 367px;
-    }
-}
-@media (max-height: 785px){
-    .phase3{
-        max-width: 370px;
-        min-width: 370px;
-        left: 360px;
-        line-height: 16px;
-    }
-}
-@media (max-height: 750px){
-    .phase1{
-        min-width: 230px;
-        max-width: 230px;
-        left:160px;
-    }
-    .phase1Header{
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 24px;
-        margin-bottom: 8px;
-    }
-    .phase1Text{
-        font-size: 13px;
-    }
-    .phase2{
-        min-width: 200px;
-        max-width: 200px;
-        left:610px;
-        top: 30%;
     }
 }
 @media (max-width: 1200px) {

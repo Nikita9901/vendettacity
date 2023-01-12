@@ -10,7 +10,6 @@
 .vendettacityImage{
     margin-top: -1000px;
     transition: margin-top 5s;
-    /* animation: vendettacityImage 10s 100; */
 }
 .vendettacityImage .active{
     margin-top: 1000px;
@@ -29,10 +28,10 @@
     top: 0;
     left: 0;
     background:rgba(147, 145, 145, 0.58);
-    font-family: 'New Rocker';
+    font-family: 'New Rocker', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 4vw;
     line-height: 59px;
     color:white;
     z-index: 3;
@@ -47,22 +46,31 @@
     }
     .header{
         display: flex;
-        padding-left: 50px;
         align-items: center;
+        padding-left: 6px;
     }
     .animateBlock{
         width: 100vw;
         height: 200px;
     }
+    .burgerImage{
+        margin-left: auto;
+        margin-right: 12px;
+        cursor: pointer;
+        transition: .3s;
+        z-index: 3;
+    }
+    .burgerImage:hover{
+        transform: scale(1.1);
+    }
 }
-/* .animateBlock{
-    position: absolute;
-    background-color: #222222;
-    left: -17%;
-} */
-/* 
-@keyframes vendettacityImage {
-    0%{
-        margin-top: -1000px;
-    }    
-} */
+@media (max-width: 800px) {
+    .header{
+        font-size: 6vw;
+    }
+}
+@media (max-width: 500px) {
+    .header{
+        font-size: 8vw;
+    }
+}

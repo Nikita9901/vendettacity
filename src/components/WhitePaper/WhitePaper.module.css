@@ -15,7 +15,7 @@
 }
 .header{
     color: white;
-    font-family: 'New Rocker', 'normal';
+    font-family: 'New Rocker', 'normal', sans-serif;
     font-weight: 400;
     font-size: 80px;
     margin-bottom: 3%;
@@ -29,10 +29,11 @@
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     transition: all .1s;
     margin-top: 2%;
+    min-width: 100px;
 }
 .icons{
     display: flex;
@@ -52,7 +53,7 @@
     color:rgb(189, 189, 189);
 }
 .rights{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -93,7 +94,7 @@
     }
 }
 .headerImprint{
-    font-family: 'New Rocker';
+    font-family: 'New Rocker', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -102,7 +103,7 @@
     top: 40px;
 }
 .textAbout{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -143,5 +144,32 @@
     .textAbout{
         font-size: 20px;
         margin-bottom: 15px;
+    }
+}
+@media (max-width: 1200px) {
+    .container{
+        display: flex;
+    }
+    .gta10{
+        width: 80%;
+    }
+    .button{
+        height: 40px;
+        font-size: 15px;
+    }
+    .header{
+        font-size: 11vw;
+    }
+    .headerImprint{
+        font-size: 5vw;
+        top: 0;
+    }
+    .textAbout{
+        font-size: 2.8vw;
+        margin-bottom: 0;
+        line-height: 3.3vw;
+    }
+    .closeButton{
+        width: 7vw;
     }
 }

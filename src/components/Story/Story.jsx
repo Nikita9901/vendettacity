@@ -5,6 +5,7 @@ import gta10mob from "./images/gta10mob.png";
 import gta6 from "./images/gta6.png";
 import burger from "./images/burger.svg";
 import styles from "./Story.module.css";
+import { storyButton } from "../links";
 
 const Story = ({ setMenuActive }) => {
   const [anim, setAnim] = useState({
@@ -87,14 +88,15 @@ const Story = ({ setMenuActive }) => {
           and a good job. After a while, not finding anything worthwhile, you
           got a job as a waiter in a small bar in the city center.
         </div>
-        <div
+        <a
+          href={storyButton}
           className={classnames(
             styles.button,
             anim.text ? styles.activeText : null
           )}
         >
-          read more
-        </div>
+          <div>read more</div>
+        </a>
       </div>
       <img
         src={burger}

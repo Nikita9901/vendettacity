@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Buttons } from "./components/Buttons";
 import { Carousel } from "antd";
 import styles from "./Boosts.module.css";
@@ -23,6 +23,9 @@ import {
 const Boosts = () => {
   const [active, setActive] = useState(1);
   const [currentInfo, setCurrentInfo] = useState(0);
+  const [dots, setDots] = useState(false);
+  const [arrows, setArrows] = useState(true);
+  const [autoplay, setAutoplay] = useState(false);
   const boosts = [
     {
       id: 1,
@@ -156,6 +159,13 @@ const Boosts = () => {
       ],
     },
   ];
+  useEffect(() => {
+    if (window.innerWidth < 650) {
+      setDots(true);
+      setArrows(false);
+      setAutoplay(true);
+    }
+  });
   const onChange = (currentSlide, nextSlide) => {
     setCurrentInfo(nextSlide);
   };
@@ -167,8 +177,9 @@ const Boosts = () => {
           active === el.id ? (
             <div className={styles.carousel}>
               <Carousel
-                dots={false}
-                arrows={true}
+                dots={dots}
+                arrows={arrows}
+                autoplay={autoplay}
                 prevArrow={
                   <img src={leftArrow} alt="prev" className={styles.arrow} />
                 }

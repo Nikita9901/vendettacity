@@ -2,7 +2,7 @@
     position: absolute;
     transform: rotate(-90deg);
     white-space: nowrap;
-    font-family: 'Monoton';
+    font-family: 'Monoton', sans-serif;
     font-size: 220px;
     line-height: 342px;
     color: white;
@@ -15,11 +15,11 @@
     .animateText{
         transform: none;
         width: 100%;
-        height: 200px;
+        height: 20vw;
         position: unset;
         padding-left: 0;
-        line-height: 180px;
-        font-size: 170px;
+        line-height: 18vw;
+        font-size: 16vw;
     }
     .animateText div{
         overflow-y: hidden;

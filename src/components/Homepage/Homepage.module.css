@@ -22,8 +22,8 @@
     height: 100vh;
     scroll-behavior: smooth;
 }
-/* .logoImage{
-    position: absolute;
-    left: 29%;
-    top: 13%;
-} */
+@media (max-width: 1200px) {
+    .burgerImage{
+        display: none;
+    }
+}

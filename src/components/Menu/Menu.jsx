@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import background from "./images/background.png";
 import logo from "./images/logo.svg";
 import discico from "./images/discico.png";
@@ -6,76 +6,98 @@ import twitico from "./images/twitico.png";
 import logoico from "./images/logoico.png";
 import close from "./images/close.png";
 import styles from "./Menu.module.css";
+import { discordLink, twitterLink, logoLink } from "../links";
 
-const Menu = ({ setMenuActive, setPixels }) => {
+const Menu = ({ setMenuActive }) => {
   const story = document.getElementById("story");
-  const cartel = document.getElementById("cartel");
+  let cartel = document.getElementById("cartel");
   const characters = document.getElementById("characters");
   const roadmap = document.getElementById("roadmap");
   const whitepaper = document.getElementById("whitepaper");
+  const [vertical, setVertical] = useState(false);
+  const [idCartel, setIdCartel] = useState("cartel");
+  const [idRoadmap, setIdRoadmap] = useState("roadmap");
+  useEffect(() => {
+    if (window.innerWidth < 1200) {
+      setVertical(true);
+      cartel = document.getElementById("cartelMob");
+      setIdCartel("cartelMob");
+      setIdRoadmap("roadmapMob");
+    }
+  });
+  const scrolling = (setActive, object, orientation) => {
+    setActive(false);
+    if (orientation) {
+      window.scrollTo(
+        0,
+        object.getBoundingClientRect().top + window.pageYOffset
+      );
+    } else {
+      window.scrollTo(
+        object.getBoundingClientRect().left + window.pageXOffset,
+        0
+      );
+    }
+  };
   return (
     <div className={styles.container}>
       <div className={styles.menu}>
         <div
           onClick={() => {
-            setMenuActive(false);
-            window.scrollTo(
-              story.getBoundingClientRect().left + window.pageXOffset,
-              0
-            );
+            scrolling(setMenuActive, story, vertical);
           }}
         >
-          <div className={styles.anchor}>Story</div>
+          <div className={styles.anchor}>
+            <a href={"#story"}>Story</a>
+          </div>
         </div>
         <div
           onClick={() => {
-            setMenuActive(false);
-            window.scrollTo(
-              cartel.getBoundingClientRect().left + window.pageXOffset,
-              0
-            );
+            scrolling(setMenuActive, cartel, vertical);
           }}
         >
-          <div className={styles.anchor}>Gangs</div>
+          <div className={styles.anchor}>
+            <a href={`#${idCartel}`}>Gangs</a>
+          </div>
         </div>
         <div
           onClick={() => {
-            setMenuActive(false);
-            window.scrollTo(
-              characters.getBoundingClientRect().left + window.pageXOffset,
-              0
-            );
+            scrolling(setMenuActive, characters, vertical);
           }}
         >
-          <div className={styles.anchor}>Our NFTs</div>
+          <div className={styles.anchor}>
+            <a href={"#characters"}>Our NFTs</a>
+          </div>
         </div>
         <div
           onClick={() => {
-            setMenuActive(false);
-            window.scrollTo(
-              roadmap.getBoundingClientRect().left + window.pageXOffset,
-              0
-            );
+            scrolling(setMenuActive, roadmap, vertical);
           }}
         >
-          <div className={styles.anchor}>Roadmap</div>
+          <div className={styles.anchor}>
+            <a href={`#${idRoadmap}`}>Roadmap</a>
+          </div>
         </div>
         <div
           onClick={() => {
-            setMenuActive(false);
-            window.scrollTo(
-              whitepaper.getBoundingClientRect().left + window.pageXOffset,
-              0
-            );
+            scrolling(setMenuActive, whitepaper, vertical);
           }}
         >
-          <div className={styles.anchor}>Whitepaper</div>
+          <div className={styles.anchor}>
+            <a href={"#whitepaper"}>Whitepaper</a>
+          </div>
         </div>
       </div>
       <div className={styles.icons}>
-        <img src={twitico} alt="" className={styles.icon} />
-        <img src={discico} alt="" className={styles.icon} />
-        <img src={logoico} alt="" className={styles.icon} />
+        <a href={twitterLink}>
+          <img src={twitico} alt="" className={styles.icon} />
+        </a>
+        <a href={discordLink}>
+          <img src={discico} alt="" className={styles.icon} />
+        </a>
+        <a href={logoLink}>
+          <img src={logoico} alt="" className={styles.icon} />
+        </a>
       </div>
       <img
         src={close}

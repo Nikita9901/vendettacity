@@ -32,7 +32,7 @@ const CartelMob = () => {
     },
   ];
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id={"cartelMob"}>
       <div className={styles.wrapper}>
         <Row gutter={[24, 24]} justify={"center"} align={"middle"}>
           <Col span={11} flex={1}>

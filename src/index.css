@@ -4,6 +4,10 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+body a{
+  text-decoration: unset;
+  color: unset;
+}
 @media (max-width: 1200px){
   body{
     overflow-y: unset;
