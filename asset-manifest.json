@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vendettacity/static/css/main.9f0efb7c.css",
-    "main.js": "/vendettacity/static/js/main.4aca525d.js",
+    "main.css": "/vendettacity/static/css/main.50c98cc4.css",
+    "main.js": "/vendettacity/static/js/main.c67711d2.js",
     "static/media/map.png": "/vendettacity/static/media/map.7b36f5932010228d92be.png",
     "static/media/russiansCharacters4.png": "/vendettacity/static/media/russiansCharacters4.1feb75811f45d23023b5.png",
     "static/media/russiansCharacters1.png": "/vendettacity/static/media/russiansCharacters1.d090777213f90970b5d2.png",
@@ -27,7 +27,6 @@
     "static/media/gta10mob.png": "/vendettacity/static/media/gta10mob.3661f7a2f3cdfbaec73f.png",
     "static/media/threads.png": "/vendettacity/static/media/threads.beaf8bc3ca59130e0463.png",
     "static/media/newspaper.png": "/vendettacity/static/media/newspaper.045f8ced229b8e1bbc07.png",
-    "static/media/Cartel.png": "/vendettacity/static/media/Cartel.b6a1ca29525cc2bd973d.png",
     "static/media/gta6.png": "/vendettacity/static/media/gta6.971d0a9d99d66700cfac.png",
     "static/media/cartelImage.png": "/vendettacity/static/media/cartelImage.a4f218f2daafbe2c44fc.png",
     "static/media/cosanostraImage.png": "/vendettacity/static/media/cosanostraImage.886a6a04b5cac4bb6a06.png",
@@ -56,11 +55,11 @@
     "static/media/logo.svg": "/vendettacity/static/media/logo.1a59fec8448f08541082f95033343840.svg",
     "index.html": "/vendettacity/index.html",
     "static/media/burger.svg": "/vendettacity/static/media/burger.5889d4ba2b78e8bb4df3ed72317e7012.svg",
-    "main.9f0efb7c.css.map": "/vendettacity/static/css/main.9f0efb7c.css.map",
-    "main.4aca525d.js.map": "/vendettacity/static/js/main.4aca525d.js.map"
+    "main.50c98cc4.css.map": "/vendettacity/static/css/main.50c98cc4.css.map",
+    "main.c67711d2.js.map": "/vendettacity/static/js/main.c67711d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f0efb7c.css",
-    "static/js/main.4aca525d.js"
+    "static/css/main.50c98cc4.css",
+    "static/js/main.c67711d2.js"
   ]
 }
