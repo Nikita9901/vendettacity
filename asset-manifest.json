@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vendettacity/static/css/main.50c98cc4.css",
-    "main.js": "/vendettacity/static/js/main.c67711d2.js",
+    "main.css": "/vendettacity/static/css/main.7e3301f0.css",
+    "main.js": "/vendettacity/static/js/main.76b45c02.js",
     "static/media/map.png": "/vendettacity/static/media/map.7b36f5932010228d92be.png",
     "static/media/russiansCharacters4.png": "/vendettacity/static/media/russiansCharacters4.1feb75811f45d23023b5.png",
     "static/media/russiansCharacters1.png": "/vendettacity/static/media/russiansCharacters1.d090777213f90970b5d2.png",
@@ -55,11 +55,11 @@
     "static/media/logo.svg": "/vendettacity/static/media/logo.1a59fec8448f08541082f95033343840.svg",
     "index.html": "/vendettacity/index.html",
     "static/media/burger.svg": "/vendettacity/static/media/burger.5889d4ba2b78e8bb4df3ed72317e7012.svg",
-    "main.50c98cc4.css.map": "/vendettacity/static/css/main.50c98cc4.css.map",
-    "main.c67711d2.js.map": "/vendettacity/static/js/main.c67711d2.js.map"
+    "main.7e3301f0.css.map": "/vendettacity/static/css/main.7e3301f0.css.map",
+    "main.76b45c02.js.map": "/vendettacity/static/js/main.76b45c02.js.map"
   },
   "entrypoints": [
-    "static/css/main.50c98cc4.css",
-    "static/js/main.c67711d2.js"
+    "static/css/main.7e3301f0.css",
+    "static/js/main.76b45c02.js"
   ]
 }
