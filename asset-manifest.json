@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vendettacity/static/css/main.09e0d729.css",
+    "main.css": "/vendettacity/static/css/main.ac71482e.css",
     "main.js": "/vendettacity/static/js/main.e5c24b2a.js",
     "static/media/map.png": "/vendettacity/static/media/map.7b36f5932010228d92be.png",
     "static/media/russiansCharacters4.png": "/vendettacity/static/media/russiansCharacters4.1feb75811f45d23023b5.png",
@@ -8,7 +8,6 @@
     "static/media/russiansCharacters3.png": "/vendettacity/static/media/russiansCharacters3.678733834eb647f41f56.png",
     "static/media/russiansCharacters2.png": "/vendettacity/static/media/russiansCharacters2.78ef197fec14a87eb135.png",
     "static/media/background.png": "/vendettacity/static/media/background.769125c168742a661769.png",
-    "static/media/bricks.png": "/vendettacity/static/media/bricks.c06750286edf59cf2f22.png",
     "static/media/board.png": "/vendettacity/static/media/board.dd283a50c0cc96e5ea14.png",
     "static/media/cartelCharacters4.png": "/vendettacity/static/media/cartelCharacters4.07043170156f49ae03db.png",
     "static/media/cartelCharacters3.png": "/vendettacity/static/media/cartelCharacters3.c8e2eb0a509263699a46.png",
@@ -16,6 +15,7 @@
     "static/media/triadaCharacters4.png": "/vendettacity/static/media/triadaCharacters4.218932867de474fececf.png",
     "static/media/triadaCharacters2.png": "/vendettacity/static/media/triadaCharacters2.ed3313a31e2729e13881.png",
     "static/media/triadaCharacters1.png": "/vendettacity/static/media/triadaCharacters1.bf161e48f89efe38ff8f.png",
+    "static/media/bricks.jpg": "/vendettacity/static/media/bricks.89672e63948346613eec.jpg",
     "static/media/triadaCharacters3.png": "/vendettacity/static/media/triadaCharacters3.ef757c5435fca725c4f2.png",
     "static/media/cosanostraCharacters3.png": "/vendettacity/static/media/cosanostraCharacters3.1a1e54de2289842e2ad3.png",
     "static/media/cosanostraCharacters2.png": "/vendettacity/static/media/cosanostraCharacters2.d83bbc580711ac013f6d.png",
@@ -55,11 +55,11 @@
     "static/media/logo.svg": "/vendettacity/static/media/logo.1a59fec8448f08541082f95033343840.svg",
     "index.html": "/vendettacity/index.html",
     "static/media/burger.svg": "/vendettacity/static/media/burger.5889d4ba2b78e8bb4df3ed72317e7012.svg",
-    "main.09e0d729.css.map": "/vendettacity/static/css/main.09e0d729.css.map",
+    "main.ac71482e.css.map": "/vendettacity/static/css/main.ac71482e.css.map",
     "main.e5c24b2a.js.map": "/vendettacity/static/js/main.e5c24b2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.09e0d729.css",
+    "static/css/main.ac71482e.css",
     "static/js/main.e5c24b2a.js"
   ]
 }
