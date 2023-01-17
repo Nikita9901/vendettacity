@@ -40,7 +40,7 @@ const Menu = ({ setMenuActive }) => {
     }
   };
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{ height: window.outerHeight }}>
       <div className={styles.menu}>
         <div
           onClick={() => {

@@ -26,9 +26,11 @@
 }
 @media (max-width: 1200px) {
     .button_block{
-        width: 100%;
-        min-width: 150px;
-        font-size: 25px;
-        height: 60px;
+        margin: 1vw 0;
+        min-width: unset;
+        width: 20vw;
+        font-size: 3vw;
+        height: 7vw;
+
     }
 }

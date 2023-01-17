@@ -3,6 +3,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   overflow-y: hidden;
+  background-color: #222222;
 }
 body a{
   text-decoration: unset;
@@ -12,5 +13,6 @@ body a{
   body{
     overflow-y: unset;
     overflow-x: hidden;
+    background-color: #222222;
   }
 }

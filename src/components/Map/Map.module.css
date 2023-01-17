@@ -85,7 +85,8 @@
     }
     .headerMob{
         display: unset;
-        margin-top: 20px;
+        margin-top: 5px;
+        font-size: 9vw;
     }
     .mapMob{
         display: unset;

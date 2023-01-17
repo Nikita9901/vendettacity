@@ -65,7 +65,7 @@
     font-weight: 600;
 }
 .image{
-    width: 430px;
+    width: 65%;
     animation: imageAnimation 1s 1;
     transition: all .5s;
 }
@@ -84,43 +84,59 @@
 }
 @media (max-width: 1200px){
     .container{
-        transform: scale(.6);
-        margin-left: -7%;
+        min-width: 50vw;
+        width: 50vw;
+        height: 50vw;
+    }
+    .name{
+        font-size: 3vw;
+    }
+    .carsName{
+        left: 0.5vw;
+    }
+    .alibiName{
+        right: 0.5vw;
+    }
+    .armorName{
+        bottom: 2.5vw;
+    }
+    .weaponsName{
+        top: 2.5vw;
     }
 }
-@media (max-width: 850px){
-    .container{
-        transform: scale(.5);
-        margin-left: -12%;
-    }
-}
-@media (max-width: 750px){
-    .container{
-        transform: scale(.4);
-        margin-left: -20%;
-    }
-}
-@media (max-width: 650px){
-    .container{
-        transform: scale(.4);
-        margin-left: -30%;
-    }
-}
-@media (max-width: 560px){
-    .container{
-        transform: scale(.3);
-        margin-left: -40%;
-    }
-}
-@media (max-width: 490px){
-    .container{
-        transform: scale(.3);
-        margin-left: -50%;
-    }
-}
-@media (max-width: 430px){
-    .container{
-        transform: scale(.25);
-        margin-left: -60%;
-    }
-}
+/*@media (max-width: 850px){*/
+/*    .container{*/
+/*        transform: scale(.5);*/
+/*        margin-left: -12%;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 750px){*/
+/*    .container{*/
+/*        transform: scale(.4);*/
+/*        margin-left: -20%;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 650px){*/
+/*    .container{*/
+/*        transform: scale(.4);*/
+/*        margin-left: -30%;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 560px){*/
+/*    .container{*/
+/*        transform: scale(.3);*/
+/*    }*/
+/*}*/
+/*@media (max-width: 490px){*/
+/*    .container{*/
+/*        min-width: 100vw;*/
+/*        width: 100vw;*/
+/*        height: 100vw;*/
+/*        right: 0;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 430px){*/
+/*    .container{*/
+/*        transform: scale(.25);*/
+/*    }*/
+/*}*/

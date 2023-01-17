@@ -1,6 +1,5 @@
 .container{
     width: 100%;
-    height: unset;
     height: max-content;
     display: flex;
     align-items: center;
@@ -9,6 +8,90 @@
 .wrapper{
     width: 100%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    color: white;
+    font-family: 'New Rocker', sans-serif;
+    font-weight: 400;
+    font-size: 8vw;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.hiddenImageCartel{
+    position: absolute;
+    width: 45%;
+    left: 2.7vw;
+    top: 15vw;
+    z-index: 5;
+    transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.hiddenImageCartelActive{
+    top: 15vw;
+    left: 2.7vw;
+    transition: all .3s;
+    width: 92vw;
+    position: absolute;
+    z-index: 5;
+}
+.hiddenImageTriada{
+    position: absolute;
+    width: 45%;
+    bottom: 3.5vw;
+    left: 2.7vw;
+    z-index: 5;
+    transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.hiddenImageTriadaActive{
+    left: 2.7vw;
+    bottom: 3.3vw;
+    transition: all .3s;
+    width: 94vw;
+    position: absolute;
+    z-index: 5;
+}
+.hiddenImageRussians{
+    position: absolute;
+    width: 45%;
+    top: 15vw;
+    right: 2.7vw;
+    z-index: 5;
+    transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.hiddenImageRussiansActive{
+    top: 15vw;
+    right: 2.7vw;
+    transition: all .3s;
+    width: 94vw;
+    position: absolute;
+    z-index: 5;
+}
+.hiddenImageCosanostra{
+    position: absolute;
+    width: 45%;
+    bottom: 3.5vw;
+    right: 2.7vw;
+    z-index: 5;
+    transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.hiddenImageCosanostraActive{
+    bottom: 3.5vw;
+    right: 2.7vw;
+    transition: all .3s;
+    width: 94vw;
+    position: absolute;
+    z-index: 5;
 }
 @media (min-width: 1201px) {
     .container{

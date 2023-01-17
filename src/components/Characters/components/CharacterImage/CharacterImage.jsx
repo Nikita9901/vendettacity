@@ -6,7 +6,7 @@ import styles from "./CharacterImage.module.css";
 const CharacterImage = ({ images }) => {
   return (
     <div className={classnames(styles.block)}>
-      <Carousel autoplay>
+      <Carousel autoplay className={styles.carousel}>
         {images.map((image) => (
           <img src={image} alt="" className={styles.image} />
         ))}

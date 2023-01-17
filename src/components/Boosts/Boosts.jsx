@@ -179,7 +179,6 @@ const Boosts = () => {
               <Carousel
                 dots={dots}
                 arrows={arrows}
-                autoplay={autoplay}
                 prevArrow={
                   <img src={leftArrow} alt="prev" className={styles.arrow} />
                 }

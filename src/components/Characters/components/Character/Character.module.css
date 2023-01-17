@@ -41,20 +41,25 @@
     .container{
         max-width: unset;
         width: 100vw;
+        transform: unset;
+        height: 100%;
     }
     .button_block{
         margin-left: unset;
     }
     .block{
         width: 100%;
+        max-height: 50vw;
+        min-height: 50vw;
         justify-content: center;
         align-items: center;
     }
     .text{
         text-align: center;
         font-family: 'New Rocker', sans-serif;
+        font-size: 4vw;
     }
     .header{
-        font-size: 60px;
+        font-size: 9vw;
     }
 }

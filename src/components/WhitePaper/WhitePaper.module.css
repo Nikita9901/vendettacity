@@ -158,7 +158,7 @@
         font-size: 15px;
     }
     .header{
-        font-size: 11vw;
+        font-size: 9vw;
     }
     .headerImprint{
         font-size: 5vw;
@@ -171,5 +171,8 @@
     }
     .closeButton{
         width: 7vw;
+    }
+    .rights{
+        margin-bottom: 30px;
     }
 }

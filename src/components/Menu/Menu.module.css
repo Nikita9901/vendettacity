@@ -3,12 +3,13 @@
     left: -18px;
     top: -18px;
     width: 105vw;
-    height: 103vh;
     z-index: 10;
     animation: animMenu .3s 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .menu{
     text-decoration: none;
@@ -55,7 +56,7 @@
     flex-direction: column;
     margin-top: 4%;
     left: 140px;
-    bottom: 10px;
+    bottom: 9vh;
 }
 .icon{
     margin-bottom: 10px;
@@ -73,6 +74,10 @@
     width: 500px;
 }
 @media (max-width: 1350px) {
+    .container{
+        left: 0;
+        top: 0;
+    }
     .logo{
         width: 400px;
         top: -30px;
@@ -108,8 +113,8 @@
     }
     .logo{
         width: 300px;
-        top: -30px;
-        left: -15vw;
+        top: -50px;
+        left: -80px;
     }
     .menu{
         font-size: 11vw;
@@ -123,7 +128,8 @@
     }
     .close{
         width: 50px;
-        right: 25px;
+        right: 28px;
+        top:15px;
     }
 }
 @keyframes animMenu {

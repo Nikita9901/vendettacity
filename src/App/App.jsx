@@ -24,23 +24,30 @@ function App() {
   };
   if (window.outerWidth > 1200)
     window.addEventListener("wheel", function (event) {
-      if (pixels < 0) pixels = 0;
-      else if (
-        pixels >
-        document.documentElement.scrollWidth - window.outerWidth + 100
-      )
-        pixels = document.documentElement.scrollWidth - window.outerWidth + 100;
-      else setPixels(pixels + event.deltaY);
+      if (!menuActive)
+        if (pixels < 0) pixels = 0;
+        else if (
+          pixels >
+          document.documentElement.scrollWidth - window.outerWidth + 100
+        )
+          pixels =
+            document.documentElement.scrollWidth - window.outerWidth + 100;
+        else setPixels(pixels + event.deltaY);
       window.scrollTo(pixels, 0);
     });
   return (
     <div>
-      <div className={styles.wrapper} style={{ scrollBehavior: "smooth" }}>
+      <div
+        className={styles.wrapper}
+        style={
+          menuActive ? { overflow: "hidden" } : { scrollBehavior: "smooth" }
+        }
+      >
         {menuActive ? (
           <Menu setMenuActive={setMenuActive} setPixels={setPixels} />
         ) : null}
         <div className={styles.header}>
-          Vendettacity
+          <div className={styles.headerText}>Vendettacity</div>
           <img
             src={burger}
             alt={burger}

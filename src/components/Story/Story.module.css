@@ -149,5 +149,6 @@
     }
     .headerMob{
         display: unset;
+        font-size: 12vw;
     }
 }

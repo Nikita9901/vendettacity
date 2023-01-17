@@ -1,7 +1,7 @@
 .container{
-    background-image: url('./images/bricks.png');
+    background-image: url('./images/bricks.jpg');
     display: flex;
-    min-width: 335vh;
+    min-width: 340vh;
     align-items: center;
 }
 .pistolImage{
@@ -75,34 +75,37 @@
     font-family: 'New Rocker', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 55px;
-    line-height: 68px;
+    font-size: 7vh;
+    line-height: 5vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 40px;
-    margin-top: 50px;
+    margin-bottom: 5vh;
+    margin-top: 8vh;
 }
 .bottomtext{
     font-family: 'New Rocker', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 37px;
-    margin-bottom: 5px;
+    font-size: 2.5vh;
+    line-height: 4vh;
+    margin-bottom: 1vw;
     width: 520px;
 }
 .newspaperText{
     position: absolute;
     max-width: 546px;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
 }
 .toptext{
     font-family: 'New Rocker', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 3vh;
+    line-height: 4vh;
     text-align: justify;
     margin-bottom: 15px;
 }
@@ -154,48 +157,48 @@
     font-weight: 400;
     transform: rotate(4.51deg);
 }
-@media (max-height: 900px) {
-    .container{
-    }
-    .pistolImage{
-        width: 400px;
-    }
-    .newspaperText{
-        max-width: 450px;
-    }
-    .bottomtext{
-        font-size: 25px;
-        line-height: 30px;
-    }
-    .toptext{
-        font-size: 25px;
-        line-height: 30px;
-    }
-    .newspaperHeader{
-        font-size: 47px;
-    }
-}
-@media (max-height: 720px) {
-    .pistolImage{
-        width: 350px;
-    }
-    .newspaperText{
-        max-width: 370px;
-    }
-    .bottomtext{
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .toptext{
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .newspaperHeader{
-        font-size: 40px;
-        margin-bottom: 20px;
-        margin-top: 70px;
-    }
-}
+/*@media (max-height: 900px) {*/
+/*    .container{*/
+/*    }*/
+/*    .pistolImage{*/
+/*        width: 400px;*/
+/*    }*/
+/*    .newspaperText{*/
+/*        max-width: 450px;*/
+/*    }*/
+/*    .bottomtext{*/
+/*        font-size: 25px;*/
+/*        line-height: 30px;*/
+/*    }*/
+/*    .toptext{*/
+/*        font-size: 25px;*/
+/*        line-height: 30px;*/
+/*    }*/
+/*    .newspaperHeader{*/
+/*        font-size: 47px;*/
+/*    }*/
+/*}*/
+/*@media (max-height: 720px) {*/
+/*    .pistolImage{*/
+/*        width: 350px;*/
+/*    }*/
+/*    .newspaperText{*/
+/*        max-width: 370px;*/
+/*    }*/
+/*    .bottomtext{*/
+/*        font-size: 20px;*/
+/*        line-height: 30px;*/
+/*    }*/
+/*    .toptext{*/
+/*        font-size: 20px;*/
+/*        line-height: 30px;*/
+/*    }*/
+/*    .newspaperHeader{*/
+/*        font-size: 40px;*/
+/*        margin-bottom: 20px;*/
+/*        margin-top: 70px;*/
+/*    }*/
+/*}*/
 @media (max-width: 1200px) {
     .container{
         display: none;

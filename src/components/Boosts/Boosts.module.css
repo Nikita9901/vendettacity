@@ -45,15 +45,15 @@
     font-size: 48px;
     width: 100%;
     display: flex;
-    width: 100%;
     align-items: center;
     justify-content: center;
 }
 .carousel{
     display: flex;
     flex-direction: row;
-    margin-right: 100px;
     max-width: 560px;
+    z-index: 2;
+    margin-right: 50px;
 }
 .arrow{
     height: 48px;
@@ -67,7 +67,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 23px;
     line-height: 30px;
@@ -79,22 +79,21 @@
 @media (max-width: 1200px){
     .container{
         min-width: unset;
-        height: 650px;
+        height: 80vw;
     }
     .header{
-        font-size: 60px;
+        font-size: 15vw;
     }
     .carousel{
         margin-right: 0;
-        margin-left: 5%;
-        max-width: 40vw;
-        min-width: 40vw;
+        max-width: 50vw;
+        min-width: 50vw;
     }
     .block{
         max-width: unset;
         width: 100%;
         height: 550px;
-        justify-content: unset;
+        justify-content: center;
         align-items: center;
     }
     .headerCarousel{
@@ -112,6 +111,7 @@
     .carouselBlock{
         max-width: 40vw;
         min-width: 40vw;
+        margin-left: 25px;
     }
 }
 @media (max-width: 850px){
@@ -132,70 +132,46 @@
 @media (max-width: 750px){
     .container{
         min-width: unset;
-        height: 470px;
+        height: 80vw;
     }
     .block{
         max-width: unset;
         width: 100%;
         height: 370px;
-        justify-content: unset;
+        justify-content: center;
         align-items: center;
-        margin-left: 7%;
     }
     .header{
-        font-size: 50px;
+        font-size: 15vw;
     }
 }
 @media (max-width: 650px){
     .container{
         min-width: unset;
-        height: 470px;
+        height: 80vw;
     }
     .block{
         max-width: unset;
         width: 100%;
-        height: 370px;
-        justify-content: unset;
+        height: 70vw;
+        justify-content: center;
         align-items: center;
-        margin-left: 7%;
-    }
-    .header{
-        font-size: 40px;
-    }
-    .headerCarousel{
-        font-size: 16px;
-        text-align: center;
-        margin-top: 30px;
-    }
-    .description{
-        font-size: 13px;
-        line-height: 20px;
-        margin-bottom: unset;
-    }
-    .bonus{
-        font-size: 13px;
-        line-height: 20px;
+        position: relative;
     }
     .carouselBlock{
-        max-width: 35vw;
-        min-width: 35vw;
-    }
-}
-@media (max-width: 650px){
-    .container{
-        min-width: unset;
-        height: 470px;
-    }
-    .block{
-        max-width: unset;
-        width: 100%;
-        height: 370px;
-        justify-content: unset;
+        margin-left: unset;
+        max-width: 50vw;
+        min-width: 50vw;
+        min-height: 230px;
+        height: 40vw;
+        max-height: 50vw;
+        display: flex;
         align-items: center;
-        margin-left: 7%;
+        justify-content: center;
     }
     .header{
-        font-size: 40px;
+        font-size: 9vw;
+        margin-top: 11px;
     }
     .headerCarousel{
         font-size: 16px;
@@ -205,14 +181,16 @@
     .description{
         font-size: 13px;
         line-height: 15px;
-        margin-bottom: unset;
+        margin-bottom: 8px;
     }
     .bonus{
         font-size: 13px;
         line-height: 15px;
     }
-    .carouselBlock{
-        max-width: 35vw;
-        min-width: 35vw;
+    .carousel{
+        display: flex;
+        margin-right: 0;
+        align-items: center;
+        justify-content: center;
     }
 }
