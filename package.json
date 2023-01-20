@@ -1,12 +1,14 @@
 {
   "name": "vendettacity",
-  "homepage": "http://nikita9901.github.io/vendettacity/",
+  "homepage": "/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.8.0",
     "antd": "^5.1.1",
     "classnames": "^2.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "handy-svg": "^1.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
