@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/vendnuli/deploy/
+    - /bin/cp -R server $DEPLOYPATH
+    - /bin/cp -R index.js $DEPLOYPATH
