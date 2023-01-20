@@ -3,3 +3,5 @@ deployment:
     - export DEPLOYPATH=/home/vendnuli/deploy/
     - /bin/cp -R server $DEPLOYPATH
     - /bin/cp -R index.js $DEPLOYPATH
+    - /bin/cp -R package.json $DEPLOYPATH
+    - /bin/cp -R package-lock.json $DEPLOYPATH
