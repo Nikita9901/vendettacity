@@ -1,17 +1,17 @@
-export {default as cartelCharactersImage1} from './cartelCharacters1.png'
-export {default as cartelCharactersImage2} from './cartelCharacters2.png'
-export {default as cartelCharactersImage3} from './cartelCharacters3.png'
-export {default as cartelCharactersImage4} from './cartelCharacters4.png'
-export {default as russiansCharactersImage1} from './russiansCharacters1.png'
-export {default as russiansCharactersImage2} from './russiansCharacters2.png'
-export {default as russiansCharactersImage3} from './russiansCharacters3.png'
-export {default as russiansCharactersImage4} from './russiansCharacters4.png'
-export {default as triadaCharactersImage1} from './triadaCharacters1.png'
-export {default as triadaCharactersImage2} from './triadaCharacters2.png'
-export {default as triadaCharactersImage3} from './triadaCharacters3.png'
-export {default as triadaCharactersImage4} from './triadaCharacters4.png'
-export {default as cosanostraCharactersImage1} from './cosanostraCharacters1.png'
-export {default as cosanostraCharactersImage2} from './cosanostraCharacters2.png'
-export {default as cosanostraCharactersImage3} from './cosanostraCharacters3.png'
-export {default as cosanostraCharactersImage4} from './cosanostraCharacters4.png'
-export {default as prisonerCharactersImage1} from './prisonerCharacters1.png'
+export { default as cartelCharactersImage1 } from "./cartelCharacters2.png";
+export { default as cartelCharactersImage2 } from "./cartelCharacters3.png";
+export { default as cartelCharactersImage3 } from "./cartelCharacters4.png";
+export { default as cartelCharactersImage4 } from "./cartelCharacters1.png";
+export { default as russiansCharactersImage1 } from "./russiansCharacters2.png";
+export { default as russiansCharactersImage2 } from "./russiansCharacters3.png";
+export { default as russiansCharactersImage3 } from "./russiansCharacters4.png";
+export { default as russiansCharactersImage4 } from "./russiansCharacters1.png";
+export { default as triadaCharactersImage1 } from "./triadaCharacters2.png";
+export { default as triadaCharactersImage2 } from "./triadaCharacters3.png";
+export { default as triadaCharactersImage3 } from "./triadaCharacters4.png";
+export { default as triadaCharactersImage4 } from "./triadaCharacters1.png";
+export { default as cosanostraCharactersImage1 } from "./cosanostraCharacters2.png";
+export { default as cosanostraCharactersImage2 } from "./cosanostraCharacters3.png";
+export { default as cosanostraCharactersImage3 } from "./cosanostraCharacters4.png";
+export { default as cosanostraCharactersImage4 } from "./cosanostraCharacters1.png";
+export { default as prisonerCharactersImage1 } from "./prisonerCharacters1.png";
