@@ -43,24 +43,24 @@ const NewsPaperMob = () => {
           <div className={styles.roadmap} id={"roadmapMob"}>
             <img src={board} alt="" className={styles.board} />
             <div className={styles.phase1}>
-              <div className={styles.phase1Header}>Phase 1. January 2023</div>
+              <div className={styles.phase1Header}>Phase 1. Jan-Fab 2023</div>
               <div className={styles.phase1Text}>
                 1. Creation of the collection. Launch of social networks.
-                Launching the website. Applying for Verification on AtomicHub{" "}
+                Launching the website. Applying for Verification on AtomicHub
                 <br />
                 2. Active marketing <br />
-                3. Getting to know the players with White Paper <br />
-                4. Open beta testing <br />
+                3. Introducing Whitepaper to Players <br />
+                4. Passes Drop <br />
                 5. Selection of people to participate in the game <br />
                 6. Character card drop for the chosen people
               </div>
             </div>
             <div className={styles.phase2}>
-              <div className={styles.phase1Header}>Phase 2. February 2023</div>
+              <div className={styles.phase1Header}>Phase 2. Feb-Mar 2023</div>
               <div className={styles.phase1Text}>
-                1. Prelaunch. Start.
+                1. Prelaunch.
                 <br />
-                2. Start of the game. Lite.
+                2. Start of the game. Lite version.
                 <br />
                 3. Dropping Boosts Level 1. Opening the ability to create them.
                 Boost 1.
@@ -70,30 +70,27 @@ const NewsPaperMob = () => {
             </div>
             <div className={styles.phase3}>
               <div className={styles.phase1Header}>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phase 3. March 2023
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phase 3. Feb-Mar 2023
               </div>
               <div className={styles.phase1Text}>
-                1. Drop Boost Level 2. Opening the ability to create them. Boost
-                2
+                1. Droping Boost Level 2. Opening the ability to create them.
                 <br />
                 2. Dropping Boosts level 3. Unlocking the ability to create
-                them. Boost 3<br /> 3. Dropping cars. Unlocking the ability to
-                craft them. Car
+                them. <br /> 3. Dropping cars. Unlocking the ability to craft
+                them.
               </div>
             </div>
             <div className={styles.phase4}>
-              <div className={styles.phase1Header}>
-                Phase 4. April
-                2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;
-              </div>
+              <div className={styles.phase1Header}>Phase 4. Mar-Apr 2023</div>
               <div className={styles.phase4Text}>
-                1. Dropping boosts to level 4. Unlocking the ability to create
-                them. Boost 4<br />
-                2. Dropping Bosses. Boss. Stage 1<br />
+                1. Dropping boosts Level 4. Unlocking the ability to create
+                them.
+                <br />
+                2. Dropping Bosses.
+                <br />
                 3. Game map expansion.
                 <br />
-                Unlocking the ability to create your own gang. Stage 2
+                Unlocking the ability to create your own gang.
               </div>
             </div>
           </div>
