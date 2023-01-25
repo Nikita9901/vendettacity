@@ -58,7 +58,7 @@
     flex-direction: column;
     margin-top: 4%;
     left: 140px;
-    bottom: 9vh;
+    bottom: 5vh;
 }
 .icon{
     margin-bottom: 10px;
@@ -124,8 +124,7 @@
     }
     .icons{
         left: 7vw;
-        bottom: unset;
-        top: 60vh;
+        bottom: 4vh;
     }
     .icon{
         width: 45px;

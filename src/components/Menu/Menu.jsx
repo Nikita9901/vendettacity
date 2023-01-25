@@ -94,7 +94,7 @@ const Menu = ({ setMenuActive }) => {
         <a href={discordLink} target={"_blank"} rel={"noreferrer"}>
           <img src={discico} alt="" className={styles.icon} />
         </a>
-        <a href={logoLink}>
+        <a href={logoLink} target={"_blank"} rel={"noreferrer"}>
           <img src={logoico} alt="" className={styles.icon} />
         </a>
       </div>
