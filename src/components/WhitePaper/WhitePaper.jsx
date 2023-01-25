@@ -36,17 +36,22 @@ const WhitePaper = () => {
           </div>
         ) : null}
       </div>
-      <a href={whitePaperButton} className={styles.button}>
+      <a
+        href={whitePaperButton}
+        target={"_blank"}
+        rel={"noreferrer"}
+        className={styles.button}
+      >
         <div>read</div>
       </a>
       <div className={styles.icons}>
-        <a href={twitterLink}>
+        <a href={twitterLink} target={"_blank"} rel={"noreferrer"}>
           <img src={twitico} alt="" className={styles.icon} />
         </a>
-        <a href={discordLink}>
+        <a href={discordLink} target={"_blank"} rel={"noreferrer"}>
           <img src={discico} alt="" className={styles.icon} />
         </a>
-        <a href={logoLink}>
+        <a href={logoLink} rel={"noreferrer"}>
           <img src={logoico} alt="" className={styles.icon} />
         </a>
       </div>

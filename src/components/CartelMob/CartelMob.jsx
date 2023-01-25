@@ -24,7 +24,7 @@ const CartelMob = () => {
     {
       id: 3,
       image: triada,
-      text: "Triada",
+      text: "Triad",
     },
     {
       id: 4,

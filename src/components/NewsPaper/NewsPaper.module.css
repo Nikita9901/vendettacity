@@ -2,6 +2,7 @@
     background-image: url('./images/bricks.jpg');
     display: flex;
     min-width: 340vh;
+    width: max-content;
     align-items: center;
 }
 .pistolImage{
@@ -53,7 +54,7 @@
 }
 .phase4Text{
     font-size: 1.3vh;
-    line-height: 1.6vh;
+    line-height: 1.7vh;
 }
 .boardImage{
     position: absolute;
@@ -146,8 +147,8 @@
     font-style: normal;
     color: #000000;
     position: absolute;
-    top: 64vh;
-    left:108vh;
+    top: 66vh;
+    left:109vh;
     display: flex;
     min-width: 33vh;
     max-width: 33vh;

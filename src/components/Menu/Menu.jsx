@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import background from "./images/background.png";
 import logo from "./images/logo.svg";
 import discico from "./images/discico.png";
 import twitico from "./images/twitico.png";
@@ -89,10 +88,10 @@ const Menu = ({ setMenuActive }) => {
         </div>
       </div>
       <div className={styles.icons}>
-        <a href={twitterLink}>
+        <a href={twitterLink} target={"_blank"} rel={"noreferrer"}>
           <img src={twitico} alt="" className={styles.icon} />
         </a>
-        <a href={discordLink}>
+        <a href={discordLink} target={"_blank"} rel={"noreferrer"}>
           <img src={discico} alt="" className={styles.icon} />
         </a>
         <a href={logoLink}>
@@ -108,7 +107,7 @@ const Menu = ({ setMenuActive }) => {
         }}
       />
       <img src={logo} alt={"logo"} className={styles.logo} />
-      <img src={background} alt="" className={styles.background} />
+      {/*<img src={background} alt="" className={styles.background} />*/}
     </div>
   );
 };

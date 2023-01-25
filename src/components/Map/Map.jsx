@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import masksvg from "../../static/mask.svg";
-import mapsvg from "../../static/map.png";
+import mappng from "../../static/map.png";
 import legend from "../../static/legend.png";
 import styles from "./Map.module.css";
 
@@ -18,12 +18,12 @@ const Map = () => {
   return (
     <div className={styles.container} id={"map"}>
       <div className={styles.headerMob}>Game Map</div>
-      <img src={mapsvg} alt="" className={styles.mapMob} />
+      <img src={mappng} alt="" className={styles.mapMob} />
       <div className={styles.imagep} ref={imageRef}>
         <img src={legend} alt="" className={styles.legend} />
         <div className={styles.header}>Game Map</div>
         <div className={styles.text}>Discover, who rules in this city</div>
-        <img src={mapsvg} alt="map" className={styles.mapTablet} />
+        <img src={mappng} alt="map" className={styles.mapTablet} />
         <svg
           x="0px"
           y="0px"
