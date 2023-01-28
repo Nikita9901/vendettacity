@@ -59,7 +59,9 @@ function App() {
       <div
         className={styles.wrapper}
         style={
-          menuActive ? { overflow: "hidden" } : { scrollBehavior: "smooth" }
+          menuActive || !loaded
+            ? { overflow: "hidden" }
+            : { scrollBehavior: "smooth" }
         }
       >
         {/*<Suspense*/}

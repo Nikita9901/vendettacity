@@ -15,10 +15,13 @@
     align-items: center;
     justify-content: center;
     background-color: #663100;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 img.rot {
-    animation: 1s linear 0s normal none infinite running rot;
-    -webkit-animation: 1s linear 0s normal none infinite running rot;
+    animation: 2s linear 0s normal none infinite running rot;
+    -webkit-animation: 2s linear 0s normal none infinite running rot;
 }
 @keyframes rot {
     0% {
