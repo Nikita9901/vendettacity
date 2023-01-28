@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import logo from "./images/logo.svg";
-import discico from "./images/discico.png";
-import twitico from "./images/twitico.png";
-import logoico from "./images/logoico.png";
+import discico from "./images/discord.svg";
+import twitico from "./images/twitter.svg";
+import logoico from "./images/AH.svg";
 import close from "./images/close.png";
 import styles from "./Menu.module.css";
 import { discordLink, twitterLink, logoLink } from "../links";

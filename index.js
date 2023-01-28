@@ -29,7 +29,7 @@ app.use(express.json());
 //   `;
 // }
 
-app.use("/", express.static(__dirname + "/server/public"));
+app.use("/", express.static(__dirname + "/server"));
 
 app.listen(port, (err) => {
   if (err) {

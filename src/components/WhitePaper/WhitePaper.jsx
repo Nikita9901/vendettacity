@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import gta10 from "./images/gta10.png";
-import discico from "./images/discico.png";
-import twitico from "./images/twitico.png";
-import logoico from "./images/logoico.png";
+import discico from "./images/discord.svg";
+import twitico from "./images/twitter.svg";
+import logoico from "./images/AH.svg";
 import close from "./images/close.png";
 import styles from "./WhitePaper.module.css";
 import { discordLink, whitePaperButton, twitterLink, logoLink } from "../links";
