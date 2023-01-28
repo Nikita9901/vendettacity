@@ -56,6 +56,13 @@ function App() {
   });
   return (
     <div>
+      {!loaded ? (
+        <>
+          <div className={styles.loaderWrapper}>
+            <img src={rotLoader} alt="" className={styles.rot} />
+          </div>
+        </>
+      ) : null}
       <div
         className={styles.wrapper}
         style={
@@ -75,13 +82,6 @@ function App() {
         {/*>*/}
         {menuActive ? (
           <Menu setMenuActive={setMenuActive} setPixels={setPixels} />
-        ) : null}
-        {!loaded ? (
-          <>
-            <div className={styles.loaderWrapper}>
-              <img src={rotLoader} alt="" className={styles.rot} />
-            </div>
-          </>
         ) : null}
         <div className={styles.header}>
           <div className={styles.headerText}>Vendettacity</div>
