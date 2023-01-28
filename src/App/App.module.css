@@ -18,6 +18,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 img.rot {
     animation: 2s linear 0s normal none infinite running rot;
