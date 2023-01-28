@@ -1,7 +1,9 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/vendnuli/deploy/
-    - /bin/cp -R server $DEPLOYPATH
-    - /bin/cp -R index.js $DEPLOYPATH
-    - /bin/cp -R package.json $DEPLOYPATH
-    - /bin/cp -R package-lock.json $DEPLOYPATH
+    - export DEPLOYPATH=/home/vendnuli/deploy/public/
+    - /bin/cp -R server/static $DEPLOYPATH
+    - /bin/cp -R server/asset-manifest.json $DEPLOYPATH
+    - /bin/cp -R server/index.html $DEPLOYPATH
+    - /bin/cp -R server/logo.svg $DEPLOYPATH
+    - /bin/cp -R server/manifest.json $DEPLOYPATH
+    - /bin/cp -R server/robots.txt $DEPLOYPATH
