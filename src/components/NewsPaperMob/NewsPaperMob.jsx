@@ -1,7 +1,7 @@
 import React from "react";
 import pistol from "../NewsPaper/images/pistol.webp";
 import newspaper from "../NewsPaper/images/newspaper.webp";
-import board from "../NewsPaper/images/board.webp";
+import board from "../NewsPaper/images/boardMob.webp";
 import { Col, Row } from "antd";
 import styles from "./NewsPaperMob.module.css";
 
