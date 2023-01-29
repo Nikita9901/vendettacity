@@ -20,6 +20,7 @@ import burger from "../components/Homepage/images/burger.svg";
 function App() {
   const [menuActive, setMenuActive] = useState(false);
   const [loaded, setLoaded] = useState(false);
+  const [loadedBase, setLoadedBase] = useState(false);
   let pixels = window.pageXOffset;
   const setPixels = (number) => {
     pixels = number;
@@ -48,11 +49,11 @@ function App() {
     }
     setTimeout(() => {
       if (!loaded) setLoaded(true);
-    }, 7000);
-    // window.onload = function () {
-    //   setLoaded(true);
-    //   console.log("loaded");
-    // };
+    }, 10000);
+    setTimeout(() => {
+      setLoadedBase(true);
+      console.log("loadedBase");
+    }, 500);
     if (window.outerWidth > 1200)
       window.addEventListener("wheel", function (event) {
         if (!menuActive)
@@ -73,6 +74,7 @@ function App() {
         <>
           <div className={styles.loaderWrapper}>
             <img src={rotLoader} alt="" className={styles.rot} />
+            <div className={styles.loadText}>Loading...</div>
           </div>
         </>
       ) : null}
@@ -99,19 +101,22 @@ function App() {
           />
         </div>
         <HomePage setMenuActive={setMenuActive} />
-        <div className={styles.animateBlock}>
-          <VendettaCity />
-        </div>
-        <Story setMenuActive={setMenuActive} />
-        <Cartel />
-        <CartelMob />
-        <Map />
-        <Characters />
-        <Boosts />
-        <NewsPaper />
-        <NewsPaperMob />
-        <WhitePaper />
-        {/*</Suspense>*/}
+        {loadedBase ? (
+          <>
+            <div className={styles.animateBlock}>
+              <VendettaCity />
+            </div>
+            <Story setMenuActive={setMenuActive} />
+            <Cartel />
+            <CartelMob />
+            <Map />
+            <Characters />
+            <Boosts />
+            <NewsPaper />
+            <NewsPaperMob />
+            <WhitePaper />
+          </>
+        ) : null}
       </div>
     </div>
   );

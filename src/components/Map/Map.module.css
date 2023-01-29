@@ -50,7 +50,7 @@
 }
 .imagep{
   height: 100%;
-  background: url('../../static/map.png');
+  background: url('../../static/map.webp');
   object-fit: cover;
   object-position: center;
   background-size: cover;
