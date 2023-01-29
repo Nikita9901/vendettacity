@@ -1,8 +1,8 @@
 import React from "react";
-import pistol from "./images/pistol.png";
-import newspaper from "./images/newspaper.png";
-import board from "./images/board.png";
-import threads from "./images/threads.png";
+import pistol from "./images/pistol.webp";
+import newspaper from "./images/newspaper.webp";
+import board from "./images/board.webp";
+import threads from "./images/threads.webp";
 import styles from "./NewsPaper.module.css";
 
 const NewsPaper = () => {

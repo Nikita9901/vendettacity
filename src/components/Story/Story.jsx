@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import classnames from "classnames";
-import gta10 from "./images/gta10.png";
-import gta10mob from "./images/gta10mob.png";
-import gta6 from "./images/gta6.png";
+import gta10 from "./images/cops.webp";
+import gta10mob from "./images/hospital.webp";
+import gta6 from "./images/NB.webp";
 import burger from "./images/burger.svg";
 import styles from "./Story.module.css";
 import { storyButton } from "../links";

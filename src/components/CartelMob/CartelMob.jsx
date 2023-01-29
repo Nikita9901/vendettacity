@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Col, Row } from "antd";
-import cartel from "./images/cartel.png";
-import russians from "./images/russians.png";
-import cosanostra from "./images/cosanostra.png";
-import triada from "./images/triada.png";
+import cartel from "./images/cartel.webp";
+import russians from "./images/russians.webp";
+import cosanostra from "./images/cosanostra.webp";
+import triada from "./images/triad.webp";
 import styles from "./CartelMob.module.css";
 import { CloseImage } from "./components";
 import classnames from "classnames";

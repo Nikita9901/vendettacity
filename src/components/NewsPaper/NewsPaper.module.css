@@ -1,5 +1,5 @@
 .container{
-    background-image: url('./images/bricks.jpg');
+    background-image: url('./images/bricks.webp');
     display: flex;
     min-width: 340vh;
     width: max-content;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, Suspense } from "react";
+import React, { useEffect, useState } from "react";
 import {
   HomePage,
   Story,
@@ -13,7 +13,7 @@ import {
   NewsPaperMob,
 } from "../components";
 import { VendettaCity } from "../components/VendettaCity";
-import rotLoader from "./images/rotLoader.png";
+import rotLoader from "./images/rotLoader.webp";
 import styles from "./App.module.css";
 import burger from "../components/Homepage/images/burger.svg";
 // const HomePage = React.lazy(() => import("../components/Homepage"));
@@ -71,15 +71,6 @@ function App() {
             : { scrollBehavior: "smooth" }
         }
       >
-        {/*<Suspense*/}
-        {/*  fallback={*/}
-        {/*    <>*/}
-        {/*      <div className={styles.loaderWrapper}>*/}
-        {/*        <img src={rotLoader} alt="" className={styles.rot} />*/}
-        {/*      </div>*/}
-        {/*    </>*/}
-        {/*  }*/}
-        {/*>*/}
         {menuActive ? (
           <Menu setMenuActive={setMenuActive} setPixels={setPixels} />
         ) : null}

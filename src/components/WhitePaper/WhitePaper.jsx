@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import gta10 from "./images/gta10.png";
+import banner from "./images/banner.webp";
 import discico from "./images/discord.svg";
 import twitico from "./images/twitter.svg";
 import logoico from "./images/AH.svg";
@@ -13,7 +13,7 @@ const WhitePaper = () => {
     <div className={styles.container} id={"whitepaper"}>
       <div className={styles.header}>Whitepaper</div>
       <div className={styles.gta10}>
-        <img src={gta10} alt="whitepaper" className={styles.whitepaper} />
+        <img src={banner} alt="whitepaper" className={styles.whitepaper} />
         {imprintActive ? (
           <div className={styles.imprintWindow}>
             <img

@@ -1,5 +1,5 @@
 import React from "react";
-import homepage from "./images/homepage.png";
+import homepage from "./images/homepage.webp";
 import burger from "./images/burger.svg";
 import styles from "./Homepage.module.css";
 

@@ -10,7 +10,7 @@
     justify-content: center;
     overflow: hidden;
     height: 103%;
-    background: url("./images/background.png") no-repeat center center ;
+    background: url("./images/background.webp") no-repeat center center ;
     background-size: cover;
 }
 .menu{
