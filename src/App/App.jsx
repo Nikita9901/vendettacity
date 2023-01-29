@@ -16,17 +16,6 @@ import { VendettaCity } from "../components/VendettaCity";
 import rotLoader from "./images/rotLoader.webp";
 import styles from "./App.module.css";
 import burger from "../components/Homepage/images/burger.svg";
-// const HomePage = React.lazy(() => import("../components/Homepage"));
-// const Story = React.lazy(() => import("../components/Story"));
-// const Cartel = React.lazy(() => import("../components/Cartel"));
-// const Map = React.lazy(() => import("../components/Map"));
-// const Characters = React.lazy(() => import("../components/Characters"));
-// const Boosts = React.lazy(() => import("../components/Boosts"));
-// const NewsPaper = React.lazy(() => import("../components/NewsPaper"));
-// const NewsPaperMob = React.lazy(() => import("../components/NewsPaperMob"));
-// const WhitePaper = React.lazy(() => import("../components/WhitePaper"));
-// const Menu = React.lazy(() => import("../components/Menu"));
-// const CartelMob = React.lazy(() => import("../components/CartelMob"));
 
 function App() {
   const [menuActive, setMenuActive] = useState(false);
@@ -36,10 +25,31 @@ function App() {
     pixels = number;
   };
   useEffect(() => {
-    window.onload = function () {
-      setLoaded(true);
-      console.log("loaded");
-    };
+    if (window.attachEvent) {
+      window.attachEvent("onload", function () {
+        setLoaded(true);
+      });
+    } else if (window.addEventListener) {
+      window.addEventListener(
+        "load",
+        function () {
+          setLoaded(true);
+        },
+        false
+      );
+    } else {
+      document.addEventListener(
+        "load",
+        function () {
+          setLoaded(true);
+        },
+        false
+      );
+    }
+    // window.onload = function () {
+    //   setLoaded(true);
+    //   console.log("loaded");
+    // };
     if (window.outerWidth > 1200)
       window.addEventListener("wheel", function (event) {
         if (!menuActive)
