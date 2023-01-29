@@ -46,6 +46,9 @@ function App() {
         false
       );
     }
+    setTimeout(() => {
+      if (!loaded) setLoaded(true);
+    }, 7000);
     // window.onload = function () {
     //   setLoaded(true);
     //   console.log("loaded");
